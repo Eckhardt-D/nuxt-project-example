@@ -6,11 +6,18 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ],
     script: [
       { src: '/js/jquery-3.3.1.js', defer: true, async: true},
+      { src: 'styles/bootstrap4/popper.min.js', body: true },
+      { src: 'styles/bootstrap4/bootstrap.min.js', body: true },
+      { src: 'plugins/OwlCarousel2-2.2.1/owl.carousel.js', body: true },
+    ],
+    link: [
+      { rel: 'stylesheet', href: 'styles/bootstrap4/bootstrap.min.css' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' },
+      { rel: 'stylesheet', href: 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' },
+      { rel: 'stylesheet', href: 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' },
     ],
     __dangerouslyDisableSanitizers: ['script']
   },
@@ -44,15 +51,6 @@ module.exports = {
         config.externals = {
         }
          
-      }
-      if (!ctx.isClient) {
-        config.externals.splice(0, 0, function (context, request, callback) {
-          if (/^vue2-google-maps($|\/)/.test(request)) {
-            callback(null, false)
-          } else {
-            callback()
-          }
-        })
       }
     },
     /*
@@ -113,10 +111,6 @@ module.exports = {
         ]
       }
     ],
-    // Rainmaker VISTA Integrations
-    '~/vista/wetu',
-    '~/vista/housekeeping',
-    //
     'nuxt-fontawesome',
     'nuxt-material-design-icons',
   ],
@@ -128,18 +122,10 @@ module.exports = {
     ],
   },
   plugins: [
-    { src: '~/plugins/swiper.js', ssr: false },
-    { src: '~/plugins/datepicker.js', ssr: false },
-    { src: '~/plugins/gmaps.js'},
     { src: '~/plugins/webfont.js', ssr: false},
   ],
   css: [
     'static/styles/bootstrap4/bootstrap.min.css',
-    'static/plugins/magnific-popup/magnific-popup.min.css',
-    'static/styles/main_styles.css', 
-    'static/styles/responsive.min.css',
-    'swiper/dist/css/swiper.css',
-    'vue-airbnb-style-datepicker/dist/styles.css'
   ],
   builder: {
     optimization: {

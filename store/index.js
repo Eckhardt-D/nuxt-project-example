@@ -3,7 +3,6 @@
 import Vuex from 'vuex'
 
 // Component-specific stores are in the modules/ firectory
-import wetu from './modules/wetu' 
 
 const Store = () => {
   return new Vuex.Store({
@@ -27,7 +26,7 @@ const Store = () => {
 
     // Additional modules included from other files
     modules: {
-       wetu,
+
     }
   })
 }
