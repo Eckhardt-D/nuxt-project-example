@@ -24,30 +24,30 @@ header, .topmenu nav:first-child:before{
 /*---------- CHANGE COLOR TWO ----------*/
 .navbar-main > li > .dropdown-menu,
 footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .btn.btn-danger:hover, .main-menu, .main-menu:before, #main-menu-bg, .stats > div > div:hover, .btn.btn-sm.btn-default:before, .big-hr.color-2, .our-services.styled div > a:hover:after, .adress-details > div > span:after, .comments > div > a.reply:hover, .comments > div > a.reply:after, nav.pagination a:hover, .tags a:hover, ul.blog-cats > li:hover, #menu-open, .main-menu section nav, .our-services div > a:hover > span, .testimonial-content span, .info-texts:after, .post-info:after, .customBgColor{
-	background-color:#2dcc70;
+	background-color:#0a9447;
 }
 .stats > div > div:hover, .btn.btn-sm.btn-default:hover, .comments > div > a.reply:hover, nav.pagination a:hover, .tags a:hover, ul.blog-cats li:hover, .our-services div > a:hover > span, .testimonial-content span{
-	border-color:#2dcc70;
+	border-color:#0a9447;
 }
 .big-hr.color-2:before, .big-hr.color-2:after, .info-texts div > div > div:last-child:before{
-    border-top-color:#2dcc70; 
+    border-top-color:#0a9447; 
 }
 .our-services div > a:hover > span:before, .our-services div > a:hover > span:after, .testimonial-content span:before, .testimonial-content span:after{
-	border-bottom-color: #2dcc70; 
+	border-bottom-color: #0a9447; 
 }
 .stats span:first-child, footer .copy a, .twitter-feeds div span, .recent-posts div a:hover{
-	color:#2dcc70;
+	color:#0a9447;
 }
 @media screen and (max-width: 768px){
 	.info-texts div > div > div:last-child p{
-		background:#2dcc70;
+		background:#0a9447;
 	}
 	#menu-close,.main-menu a:hover{
-		color:#2dcc70;
+		color:#0a9447;
 	}
 }
 .ip-header .ip-loader svg path.ip-loader-circle {
-	stroke: #2dcc70;
+	stroke: #0a9447;
 }
 /*---------------------------------------------*/
 
