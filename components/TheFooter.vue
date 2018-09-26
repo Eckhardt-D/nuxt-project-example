@@ -1,0 +1,66 @@
+<template>
+  <footer>
+    <div class="color-part2"></div>
+    <div class="color-part"></div>
+    <div class="container-fluid">
+      <div class="row block-content">
+        <div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
+          <a href="#" class="logo-footer"></a>
+          <p>Integer congue elit non semper laoreet sed lectu orc posuer nisl tempor sed felis ac mauris ellent esque
+            ndu ca urna Integer vitae felis.</p>
+          <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-vimeo-square fa-2x"></i></a>
+          </div>
+          <a href="#" class="btn btn-lg btn-danger">GET A FREE QUOTE</a>
+        </div>
+        <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
+          <h4>WE OFFERS</h4>
+          <nav>
+            <a href="#">Sea Freight</a>
+            <a href="#">Road Transportation</a>
+            <a href="#">Air Freight</a>
+            <a href="#">Railway Logistics</a>
+            <a href="#">Packaging & Storage</a>
+            <a href="#">Warehousing</a>
+          </nav>
+        </div>
+        <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
+          <h4>MAIN LINKS</h4>
+          <nav>
+            <a href="/home">Home</a>
+            <a href="/services">Our Services</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact</a>
+          </nav>
+        </div>
+        <div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
+          <h4>CONTACT INFO</h4>
+          Everyday is a new day for us and we work really hard to satisfy our customers everywhere.
+          <div class="contact-info">
+            <span><i class="fa fa-location-arrow"></i><strong>TRANSCARGO LTD.</strong><br>3608 NewHill Station Ave CA,
+              Newyork 33102 </span>
+            <span><i class="fa fa-phone"></i>1.800.987.6543</span>
+            <span><i class="fa fa-envelope"></i>info@domain.com | quote@domain.com</span>
+            <span><i class="fa fa-clock-o"></i>Mon - Sat 8.00 - 19.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="copy text-right"><a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a></div>
+    </div>
+  </footer>
+</template>
+
+<script>
+  export default {
+
+  }
+
+</script>
+
+<style>
+
+</style>
