@@ -100,7 +100,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid block-content inner-offset">
+			<!-- <div class="container-fluid block-content inner-offset">
 				<div class="hgroup text-center wow fadeInUp" data-wow-delay="0.3s">
 					<h1>MEET OUR TEAM</h1>
 					<h2>dedicated & professionals</h2>
@@ -158,9 +158,9 @@
 						</div>
 					</div>
 				</div>
-			</div>       
+			</div>        -->
 
-			<div class="darken-block inner-offset">
+			<!-- <div class="darken-block inner-offset">
 				<div class="container-fluid">
 					<div class="hgroup">
 						<h1>TRUSTED CLIENTS</h1>
@@ -199,20 +199,20 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="container-fluid partners block-content">
+			<!-- Partners -->
+				<div class="container-fluid partners block-content">
 				<div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
-					<h1>TRUSTED partners</h1>
-					<h2>Lorem ipsum dolor sit amet consectetur</h2>
+					<h1>OUR Group</h1>
+					<!-- <h2></h2> -->
 				</div>
-				<div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/3.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
+				<div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
+					data-min450="2" data-min600="2" data-min768="4">
+					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/1.png" alt="Img"></a></div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img height="50px" src="media/3-column-info/2.png" alt="Img"></a></div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/3.png" alt="Img"></a></div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/4.png" alt="Img"></a></div>
 				</div>
 			</div>
 		</div>

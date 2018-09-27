@@ -16,82 +16,140 @@
       <div class="container-fluid">
         <ul class="nav nav-tabs wow zoomIn" data-wow-delay="0.3s" id="filter">
           <li class="active"><a href="#" data-filter=".allservices">All services</a></li>
-          <li><a href="#" data-filter=".seafreight">SEA FREIGHT</a></li>
-          <li><a href="#" data-filter=".transportation">Road transportation</a></li>
-          <li><a href="#" data-filter=".airfreight">AIR FREIGHT</a></li>
-          <li><a href="#" data-filter=".railway">Railway logistics</a></li>
-          <li><a href="#" data-filter=".warehousing">warehousing</a></li>
-          <li><a href="#" data-filter=".packaging">packaging & storage</a></li>
+          <li><a href="#" data-filter=".jetxcouriers">JET.X COURIERS</a></li>
+          <li><a href="#" data-filter=".proparcel">PRO PARCEL</a></li>
+          <li><a href="#" data-filter=".wesbank">WESBANK TRANSPORT</a></li>
+          <li><a href="#" data-filter=".fpdutoit">FP DU TOIT</a></li>
         </ul>
       </div>
     </div>
     <div class="container-fluid inner-offset wow zoomIn" data-wow-delay="0.3s">
       <div class="tab-content row services">
         <div class="tab-pane active isotope-filter">
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices seafreight railway">
-            <img class="full-width" src="media/3-column-info/4.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna.</p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/4.jpg" alt="Img"> -->
+            <h4>CROSS-BORDER</h4>
+            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices transportation">
-            <img class="full-width" src="media/3-column-info/6.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>AIR EXPRESS</h4>
+            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>OVERNIGHT ROAD</h4>
+            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>SECOND DAY ROAD</h4>
+            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>DOMESTIC COURIER</h4>
+            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
           </div>
 
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices packaging warehousing">
-            <img class="full-width" src="media/3-column-info/4.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna.</p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>PRIORITY</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices warehousing railway">
-            <img class="full-width" src="media/3-column-info/8.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>DOOR-TO-DOOR</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices seafreight airfreight railway">
-            <img class="full-width" src="media/3-column-info/9.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>TERMINAL-TO-DOOR</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices transportation">
-            <img class="full-width" src="media/3-column-info/3.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>DEPOT-TO-DEPOT</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices airfreight packaging warehousing">
-            <img class="full-width" src="media/3-column-info/1.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>REFRIGERATED PART-LOADS</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices seafreight airfreight transportation">
-            <img class="full-width" src="media/3-column-info/8.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>PALLETISED PART-LOADS</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
-          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices seafreight transportation packaging warehousing railway">
-            <img class="full-width" src="media/3-column-info/2.jpg" alt="Img">
-            <h4>SAFE & SECURE DELIVERY</h4>
-            <p>Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris.
-              Pellentesque in urna. </p>
-            <a class="btn btn-success btn-sm" href="/services">READ MORE</a>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>ECONOMY</h4>
+            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
+
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>CONTAINER TRANSPORT</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>MATERIAL HANDLING</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>CHEMICAL LOGISTICS</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>NATIONAL & SADC TRANSPORT</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>WAREHOUSING</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>CARGO HANDLING & CRANE HIRE</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>OPERATOR TRAINING</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>ABNORMAL LOADS</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+          </div>
+
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>LINE HAUL CROSS BORDER</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>INTER-CITY LINE HAUL RSA</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>CENTRAL AFRICA TRANSPORT DIVISION</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>REFRIGERATED TRANSPORT</h4>
+            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+          </div>
+
         </div>
       </div>
     </div>

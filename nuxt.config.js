@@ -4,6 +4,7 @@ module.exports = {
   */
  head: {
   title:"FP Du Toit",
+  description: "Driven to Deliver",
   script: [
     { src: './js/jquery-1.11.3.min.js', body: true},
     { src: './styles/bootstrap4/popper.min.js', body: true },
