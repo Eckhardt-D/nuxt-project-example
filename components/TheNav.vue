@@ -14,10 +14,10 @@
                   </div>
                   <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
                       <div class="text-right header-padding">
-                          <div class="h-block"><span>CALL US</span>1.800.987.6543</div>
-                          <div class="h-block"><span>EMAIL US</span>info@domain.com</div>
-                          <div class="h-block"><span>WORKING HOURS</span>Mon - Sat  8.00 - 19.00</div>
-                          <a class="btn btn-success" href="#">GET A FREE QUOTE</a>
+                          <div class="h-block"><span>CALL US</span>+264 (0) 61 372 900</div>
+                          <!-- <div class="h-block"><span>EMAIL US</span>info@domain.com</div> -->
+                          <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div>
+                          <router-link class="btn btn-success" to="/contact">GET A QUOTE</router-link>
                       </div>
                   </div>
               </div>

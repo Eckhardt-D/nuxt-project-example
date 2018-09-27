@@ -237,7 +237,7 @@
     </div>
   </div>
   <!-- Counter Animation -->
-     <div class="container-fluid block-content percent-blocks" data-waypoint-scroll="true">
+  <div class="container-fluid block-content percent-blocks" data-waypoint-scroll="true">
     <div class="row stats">
       <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="chart" data-percent="50">

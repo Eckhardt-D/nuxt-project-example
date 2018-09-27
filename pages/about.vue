@@ -2,17 +2,17 @@
   <div>
 			<div class="bg-image page-title">
 				<div class="container-fluid">
-					<a href="#"><h1>ABOUT US</h1></a>
+					<router-link to="/about"><h1>ABOUT US</h1></router-link>
 					<div class="pull-right">
-						<a href="01_home.html"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/about">About Us</a>
+						<router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/about">About Us</router-link>
 					</div>
 				</div>
 			</div>
 
 			<div class="container-fluid inner-offset">
 				<div class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
-					<h2>FOR ALL YOUR CARGO NEEDS</h2>
-					<h1>TRANSCARGO - THE RIGHT CHOICE</h1>
+					<h2>FOR ALL YOUR TRANSPORT NEEDS</h2>
+					<h1>FP DU TOIT - THE RIGHT CHOICE</h1>
 				</div>            
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
@@ -27,32 +27,38 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7">
-								<p><strong style="font-size:16px;">Sed mollis lorem ipsum dolor sit amet, consectetuer adipiscing elit vamus fringilla sed cipit mil sed hac habitasse platea dictumst pellentesque justo.</strong></p>
-								<p>Vivamus quis sapien. Etiam fring illatul Quisque consectetuer. Integer conguel elit non semper laoreet sed lectus orcid posuere nisl tempor lacus felis ac mauris. Pellentesque inedu urna. Integer lvitae felis. Vel magna posuere vestibulum. Nam rutrum congue diam.</p>
-								<u>Aliquam malesuada mauris urk metus lorem ipsum dolor sit amet consectetur adipisicing</u>
+								<p><strong style="font-size:16px;">What started out in 1968 as a small Northern Cape family business, FP du Toit Transport Group has grown into one of Southern Africa’s major transport and freight companies.</strong></p>
+								<p>Almost 50 years later, family is still a central characteristic at the FP du Toit Transport Group.
+									FP du Toit Transport Group’s extended family now comprises more than 1000 members, working out of 13 locations across Namibia, South Africa and 7 additional SADC countries. A fleet of 560 power units forms the operational backbone of the transport services offered.</p>
+								<u>In an increasingly globalized world, time is of the essence and being ‘out of stock’ is unacceptable. </u>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab2">
 						<div class="row">
 							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
+								<img class="full-width" src="media/images/2.png" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>Aliquam malesuada mauris urk metus lorem ipsum dolor sit amet consectetur adipisicingSed mollis lorem ipsum dolor sit amet, consectetuer adipiscing elit vamus fringilla sed cipit mil sed hac habitasse platea dictumst pellentesque justo.</strong></p>
-								<p>Vivamus quis sapien. Etiam fring illatul Quisque consectetuer. Integer conguel elit non semper laoreet sed lectus orcid posuere nisl tempor lacus felis ac mauris. Vel magna posuere vestibulum. Nam rutrum congue diam.</p>
-								<u>Aliquam malesuada mauris urk metus lorem ipsum dolor sit amet consectetur adipisicing</u>
+								<p><strong>OUR VISION</strong></p>
+								<p>A world class service provider of specialised logistics and transport solutions to selected customers,
+									focused on rendering exceptional client service, generating fair returns for its shareholders and 
+									providing rewarding careers to its employees.
+								</p>
+								<u>We will achieve this by conducting our business in accordancewith our values.</u>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab3">
 						<div class="row">
 							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
+								<img class="full-height text-right" src="media/images/3.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>Vel magna posuere vestibulum. Nam rutrum congue diam.</strong></p>
-								<p>Vivamus quis sapien. Etiam fring illatul Quisque consectetuer. Integer conguel elit non semper laoreet sed lectus orcid posuere nisl tempor lacus felis ac mauris.Vel magna posuere vestibulum. Nam rutrum congue diam.  Pellentesque inedu urna. Integer lvitae felis. Vel magna posuere vestibulum. Nam rutrum congue diam.</p>
+								<p><strong>FP du Toit Transport Group continuously invests in modern technologies and management tools to handle stock safely and rapidly.</strong></p>
+								<p> From barcoding, to tracking and satellite monitoring – your products and packages are handled with the necessary care. 
+									One of the unique features that the company offers clients, is in-house customs clearing. In order to expedite import/export activities and to eliminate wasteful delays, in-house customs clearing services work closely with the permanent Namibian customs officials on site at our Prosperita Depot in Windhoek. FP du Toit Transport Group is constantly re-assessing its methods and researching ways to become more efficient. An example would be: Import documents are flown from South Africa to 
+									Windhoek in order to arrive prior to the transporting vehicle, to expedite the framing on the Namibian Customs software, Asycuda.</p>
 								<u>Aliquam malesuada mauris urk metus lorem ipsum dolor sit amet consectetur adipisicing</u>
 							</div>
 						</div>
@@ -60,28 +66,28 @@
 				</div>
 
 				<div class="row stats percent-blocks" data-waypoint-scroll="true">
-					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="230">
-							<span><i class="fa fa-folder-open"></i></span>
-							<span class="percent">230</span>Projects Done
+					<div class="col-sm-6 col-md-3 col-lg-3">
+						<div class="chart" data-percent="50">
+							<span><i class="fa fa-calendar"></i></span>
+							<span class="percent"></span>Years
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="68">
-							<span><i class="fa fa-users"></i></span>
-							<span class="percent">68</span>Clients Worldwide
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="147">
-							<span><i class="fa fa-truck"></i></span>
-							<span class="percent">147</span>Owned Vehicles
+						<div class="col-sm-6 col-md-3 col-lg-3">
+							<div class="chart" data-percent="13">
+								<span><i class="fa fa-home"></i></span>
+								<span class="percent"></span>Depots
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="105">
-							<span><i class="fa fa-male"></i></span>
-							<span class="percent">105</span>People In Team
+						<div class="col-sm-6 col-md-3 col-lg-3">
+							<div class="chart" data-percent="7">
+								<span><i class="fa fa-road"></i></span>
+								<span class="percent"></span>Countries
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 col-lg-3">
+							<div class="chart" data-percent="560">
+								<span><i class="fa fa-truck"></i></span>
+								<span class="percent"></span>Fleet size
 						</div>
 					</div>
 				</div>
@@ -90,7 +96,7 @@
 			<div class="bg-image parallax" style="background-image:url(media/bg/4.jpg);">
 				<div class="container-fluid text-center wow fadeInUp" data-wow-delay="0.3s">
 					<h1>WE ARE DEDICATED TO PROVIDE THE BEST SERVICE <br> AT THE LOWEST POSSIBLE COST</h1>
-					<a class="btn btn-success" href="#">READ MORE</a>
+					<router-link class="btn btn-success" to="/services">READ MORE</router-link>
 				</div>
 			</div>
 
