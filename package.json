@@ -46,6 +46,7 @@
     "vue-meta": "^1.5.0",
     "vue-router": "^3.0.1",
     "vue-warehouse": "^1.0.0",
+    "vue2-google-maps": "^0.10.2",
     "webfontloader": "^1.6.28",
     "webpack": "^3.12.0"
   },

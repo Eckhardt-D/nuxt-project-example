@@ -15,9 +15,6 @@ module.exports = {
     { src: './plugins/easypiechart/jquery.easypiechart.min.js', body: true},
     { src: './plugins/js/waypoints.min.js', body: true},
     { src: './plugins/js/jquery.easypiechart.min.js', body: true},
-    // { src: './styles/assets/loader/js/classie.js', body: true },
-    // { src: './styles/assets/loader/js/pathLoader.js', body: true },
-    // { src: './styles/assets/loader/js/main.js', body: true },
     { src: './plugins/js/classie.js', body: true },
     { type: 'text/javascript', src: './styles/assets/isotope/jquery.isotope.min.js', body: true },
     { src: './plugins/js/jquery.smooth-scroll.js', body: true },
@@ -55,6 +52,7 @@ module.exports = {
   plugins: [
     { src: '~/plugins/webfont.js', ssr: false},
     { src: '~/plugins/firebase.js', ssr: false},
+    { src: '~/plugins/google-maps.js', ssr: false},
   ],
 
   /*

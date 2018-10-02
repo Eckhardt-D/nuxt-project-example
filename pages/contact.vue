@@ -10,8 +10,7 @@
         </div>
       </div>
     </div>
-
-    <iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.7953048871755!2d17.06410601565493!3d-22.511861929559004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1abe8b910015%3A0x6c62226089967685!2sFP+Du+Toit+Transport!5e0!3m2!1sen!2sna!4v1538074769644"></iframe>
+    <TheMap />
     <div class="container-fluid block-content">
       <div class="row main-grid">
         <div class="col-sm-4">
@@ -102,8 +101,11 @@
 </template>
 
 <script>
+  import TheMap from '~/components/TheMap'
   export default {
-
+    components: {
+      TheMap
+    }
   }
 
 </script>

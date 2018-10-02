@@ -210,9 +210,10 @@ hgroup h2 + h1, hgroup h1 + h2{
 	display:block;
 	content:"";
 	width: 30px;
-    height: 65px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
+	height: 65px;
+	transform: skew(-20deg);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
 }
 .navbar-main{
@@ -287,9 +288,10 @@ hgroup h2 + h1, hgroup h1 + h2{
 	z-index:2;
 	height:20px;
 	width:60px;
+	transform: skew(-30deg);
 	-webkit-transform: skew(-30deg);
-    -moz-transform: skew(-30deg);
-    -o-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
 }
 .column-info h3{
 	margin-top:40px;
@@ -673,15 +675,17 @@ footer .copy{
 	width: 80px;
 	text-align:center;
 	line-height:60px;
-    height: 65px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
+	height: 65px;
+	transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
 }
 #to-top i{
+	transform: skew(20deg);
 	-webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
 }
 
 /* Footer */
@@ -744,8 +748,9 @@ footer .color-part{
 	bottom:0px;
 	width:50%;
 	margin-left:-20%;
-    -webkit-transform: skew(-20deg);
-   	-moz-transform: skew(-20deg);
+	transform: skew(-20deg);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
 }
 .logo-footer{
