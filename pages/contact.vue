@@ -10,7 +10,9 @@
         </div>
       </div>
     </div>
-    <TheMap />
+    <no-ssr>
+      <component :is="googlemap" />
+    </no-ssr>
     <div class="container-fluid block-content">
       <div class="row main-grid">
         <div class="col-sm-4">
@@ -101,10 +103,12 @@
 </template>
 
 <script>
-  import TheMap from '~/components/TheMap'
+
+  const TheMap = () => ({component: import('@/components/TheMap.vue')})
+
   export default {
-    components: {
-      TheMap
+    created() {
+      this.googlemap = () => TheMap()
     }
   }
 
