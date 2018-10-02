@@ -24,7 +24,7 @@
 					<div class="tab-pane active" id="tab1">
 						<div class="row">
 							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
+								<img class="full-width" src="media/fleet-gallery/3.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7">
 								<p><strong style="font-size:16px;">What started out in 1968 as a small Northern Cape family business, FP du Toit Transport Group has grown into one of Southern Africa’s major transport and freight companies.</strong></p>
@@ -51,7 +51,7 @@
 					</div>
 					<div class="tab-pane" id="tab3">
 						<div class="row">
-							<div class="col-sm-5">
+							<div class="col-sm-5 text-right">
 								<img class="full-height text-right" src="media/images/3.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">

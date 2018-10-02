@@ -52,11 +52,11 @@
           </p>
           <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
-          <img src="media/3-column-info/2.png" alt="Img">
-          <h3>Wesbank Transport</h3>
-          <p>Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
-            including customized consolidation, distribution, logistics and storage services.</p>
+        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
+          <img src="media/3-column-info/4.png" alt="Img">
+          <h3>Pro Parcel Distribution</h3>
+          <p>Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
+            Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
           <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
@@ -66,11 +66,11 @@
             Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
           <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img src="media/3-column-info/4.png" alt="Img">
-          <h3>Pro Parcel Distribution</h3>
-          <p>Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
-            Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
+        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
+          <img src="media/3-column-info/2.png" alt="Img">
+          <h3>Wesbank Transport</h3>
+          <p>Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
+            including customized consolidation, distribution, logistics and storage services.</p>
           <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
         </div>
       </div>
@@ -88,6 +88,7 @@
     <div class="container-fluid block-content">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
         <h1>OUR SERVICES</h1>
+        <img width="30%" src="media/images/3.jpg" alt="">
         <h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
       </div>
       <div class="row our-services">
@@ -274,9 +275,9 @@
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
       <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/1.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img height="50px" src="media/3-column-info/2.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/3.png" alt="Img"></a></div>
       <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/4.png" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/3.png" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img height="50px" src="media/3-column-info/2.png" alt="Img"></a></div>
     </div>
   </div>
 </div>

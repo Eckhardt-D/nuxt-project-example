@@ -16,10 +16,10 @@
       <div class="container-fluid">
         <ul class="nav nav-tabs wow zoomIn" data-wow-delay="0.3s" id="filter">
           <li class="active"><a href="#" data-filter=".allservices">All services</a></li>
-          <li><a href="#" data-filter=".jetxcouriers">JET.X COURIERS</a></li>
-          <li><a href="#" data-filter=".proparcel">PRO PARCEL</a></li>
-          <li><a href="#" data-filter=".wesbank">WESBANK TRANSPORT</a></li>
           <li><a href="#" data-filter=".fpdutoit">FP DU TOIT</a></li>
+          <li><a href="#" data-filter=".proparcel">PRO PARCEL</a></li>
+          <li><a href="#" data-filter=".jetxcouriers">JET.X COURIERS</a></li>
+          <li><a href="#" data-filter=".wesbank">WESBANK TRANSPORT</a></li>
         </ul>
       </div>
     </div>
