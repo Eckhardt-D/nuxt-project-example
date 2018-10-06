@@ -29,6 +29,13 @@
                   <li><router-link to="/services">SERVICES</router-link></li>
                   <li><router-link to="/about">ABOUT US</router-link></li>
                   <li><router-link to="/contact">CONTACT</router-link></li>
+                  <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle border-hover-color1">eService <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href="http://tracking.parcelperfect.com/2500.2704.3249/">Parcel Tracking</a></li>
+                            <li><a target="_blank" href="http://ponline.fpdt.na/pponline/login.php">Customer Login</a></li>
+                        </ul>
+					</li>
                   <li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li>
                 </ul>
                 <div class="search-form-modal transition">
