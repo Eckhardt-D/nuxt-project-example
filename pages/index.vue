@@ -50,28 +50,28 @@
           <p>A transport group that is made up of a number of business units, with their own
             focus markets and transport service offerings.
           </p>
-          <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
+          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img src="media/3-column-info/4.png" alt="Img">
           <h3>Pro Parcel Distribution</h3>
           <p>Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
             Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
-          <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
+          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img src="media/3-column-info/3.png" alt="Img">
           <h3>JET.X Couriers</h3>
           <p>JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn 
             Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
-          <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
+          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
           <img src="media/3-column-info/2.png" alt="Img">
           <h3>Wesbank Transport</h3>
           <p>Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
             including customized consolidation, distribution, logistics and storage services.</p>
-          <router-link class="btn btn-default btn-sm" to="/services">READ MORE</router-link>
+          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
       </div>
     </div>

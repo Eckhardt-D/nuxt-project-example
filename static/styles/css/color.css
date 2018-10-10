@@ -24,31 +24,46 @@ header, .topmenu nav:first-child:before{
 /*---------- CHANGE COLOR TWO ----------*/
 .navbar-main > li > .dropdown-menu,
 footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .btn.btn-danger:hover, .main-menu, .main-menu:before, #main-menu-bg, .stats > div > div:hover, .btn.btn-sm.btn-default:before, .big-hr.color-2, .our-services.styled div > a:hover:after, .adress-details > div > span:after, .comments > div > a.reply:hover, .comments > div > a.reply:after, nav.pagination a:hover, .tags a:hover, ul.blog-cats > li:hover, #menu-open, .main-menu section nav, .our-services div > a:hover > span, .testimonial-content span, .info-texts:after, .post-info:after, .customBgColor{
-	background-color:#0a9447;
+	background-color:#006854;
 }
 .stats > div > div:hover, .btn.btn-sm.btn-default:hover, .comments > div > a.reply:hover, nav.pagination a:hover, .tags a:hover, ul.blog-cats li:hover, .our-services div > a:hover > span, .testimonial-content span{
-	border-color:#0a9447;
+	border-color:#006854;
 }
 .big-hr.color-2:before, .big-hr.color-2:after, .info-texts div > div > div:last-child:before{
-    border-top-color:#0a9447; 
+    border-top-color:#006854; 
 }
 .our-services div > a:hover > span:before, .our-services div > a:hover > span:after, .testimonial-content span:before, .testimonial-content span:after{
-	border-bottom-color: #0a9447; 
+	border-bottom-color: #006854; 
 }
 .stats span:first-child, footer .copy a, .twitter-feeds div span, .recent-posts div a:hover{
-	color:#0a9447;
+	color:#006854;
 }
 @media screen and (max-width: 768px){
 	.info-texts div > div > div:last-child p{
-		background:#0a9447;
+		background:#006854;
 	}
 	#menu-close,.main-menu a:hover{
-		color:#0a9447;
+		color:#006854;
 	}
 }
 .ip-header .ip-loader svg path.ip-loader-circle {
-	stroke: #0a9447;
+	stroke: #006854;
 }
+
+.btn.btn-success.special-home,.nav-tabs > li > a, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover,.btn-success.special-home:hover, .btn.btn-sm.btn-success.special-home:before  {
+	background-color:#006854;
+	color: white;
+}
+
+.btn.btn-success.special-services,.btn-success.special-services:hover, .btn.btn-sm.btn-success.special-services:before, .btn-success.special-services::after {
+	background-color:#fff;
+	color: black;
+}
+
+.btn-success.special-services::after {
+	background: #006854!important;
+}
+
 /*---------------------------------------------*/
 
 
@@ -63,8 +78,14 @@ h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter
 .navbar-main > li > .dropdown-menu > li > a:hover{
 	color:#f28e35;
 }
-.btn.btn-sm.btn-success:hover, nav.pagination a.active, .nav-tabs > li.active{
-	border-color:#f28e35;
+ nav.pagination a, .nav-tabs > li.active{
+	color: black!important;
+	border: white;
+	border-right: 4px solid #006854;
+}
+
+.nav-tabs > li.active > a {
+	color: black!important;
 }
 .stats > div > div:hover, .info-texts div > div > div:first-child:before, ul.styled li > ul{
 	border-bottom-color:#f28e35;
@@ -72,7 +93,7 @@ h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter
 .big-hr.color-1:before, .big-hr.color-1:after, .info-texts div > div > div:first-child:before{
     border-top-color:#f28e35; 
 }
-.btn.btn-success, .btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .info-texts:before, ul.blog-cats > li:before, ul.blog-cats li > ul{
+.btn.btn-success, .btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active,  .info-texts:before, ul.blog-cats > li:before, ul.blog-cats li > ul{
 	background-color:#f28e35;
 }
 @media screen and (max-width: 768px){

@@ -25,129 +25,134 @@
     </div>
     <div class="container-fluid inner-offset wow zoomIn" data-wow-delay="0.3s">
       <div class="tab-content row services">
-        <div class="tab-pane active isotope-filter">
+        <div class="tab-pane active isotope-filter text-center">
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <!-- <img class="full-width" src="media/3-column-info/4.jpg" alt="Img"> -->
             <h4>CROSS-BORDER</h4>
-            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>AIR EXPRESS</h4>
-            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
+          </div>
+          <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
+            <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
+            <h4>INTERNATIONAL AIR EXPRESS</h4>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>OVERNIGHT ROAD</h4>
-            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>SECOND DAY ROAD</h4>
-            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>DOMESTIC COURIER</h4>
-            <router-link class="btn btn-success btn-sm" to="/jetx-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
           </div>
 
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>PRIORITY</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>DOOR-TO-DOOR</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>TERMINAL-TO-DOOR</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>DEPOT-TO-DEPOT</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>REFRIGERATED PART-LOADS</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>PALLETISED PART-LOADS</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices proparcel">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>ECONOMY</h4>
-            <router-link class="btn btn-success btn-sm" to="/pro-parcel-detail">READ MORE</router-link>
+            <router-link class="btn btn-success special-services" to="/pro-parcel-detail">READ MORE</router-link>
           </div>
 
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CONTAINER TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>MATERIAL HANDLING</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CHEMICAL LOGISTICS</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>NATIONAL & SADC TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>WAREHOUSING</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CARGO HANDLING & CRANE HIRE</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>OPERATOR TRAINING</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>ABNORMAL LOADS</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/wesbank-detail">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
           </div>
 
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>LINE HAUL CROSS BORDER</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>INTER-CITY LINE HAUL RSA</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CENTRAL AFRICA TRANSPORT DIVISION</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>REFRIGERATED TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success btn-sm" to="/services">READ MORE</router-link> -->
+            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
           </div>
 
         </div>
