@@ -1387,6 +1387,10 @@ nav.pagination a + a{
 	line-height:30px;
 	text-shadow: 1px 1px 1px black;
 }
+
+.slider-content a{
+	text-shadow: none;
+}
 .slider-content a.btn{
 	margin-top:30px;
 }

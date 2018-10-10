@@ -41,7 +41,7 @@
           Head Office
           <div class="contact-info">
             <span><i class="fa fa-location-arrow"></i><strong>FP Du Toit Transport</strong><br>5 Nordland St, Lafrenz Industria, Windhoek </span>
-            <span><i class="fa fa-phone"></i>+264 (0) 61 372 900</span>
+            <span><i class="fa fa-phone"></i>+26461372900</span>
             <!-- <span><i class="fa fa-envelope"></i>info@domain.com | quote@domain.com</span> -->
             <span><i class="fa fa-clock-o"></i>Mon - Fri 8.00 - 17.00</span>
           </div>

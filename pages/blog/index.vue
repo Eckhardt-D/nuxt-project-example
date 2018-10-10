@@ -31,7 +31,7 @@
                   desert in the world, to Swakopmund. The race must be completed within 24hours, starting on a Friday
                   at 15:00. </p>
               </div>
-              <router-link to="/blog/blog-8" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-8" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
 
@@ -49,7 +49,7 @@
                   another 10 Iveco delivery vehicles. These vehicles will be used on the cross border routes between
                   South Africa and Windhoek and for local deliveries within Namibia.</p>
               </div>
-              <router-link to="/blog/blog-7" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-7" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
 
@@ -69,7 +69,7 @@
                   his company has
                   bought the business of Wesbank Transport (Pty) Ltd</p>
               </div>
-              <router-link to="/blog/blog-6" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-6" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
 
@@ -87,7 +87,7 @@
                   stood on the corner of Independence & Hosea Kutako, embraced the cold winter morning, moving between
                   cars to collect as much money as we could.</p>
               </div>
-              <router-link to="/blog/blog-5" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-5" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
 
@@ -106,7 +106,7 @@
                   the FP du Toit Transport Group decided to start an initiative to gather non-perishable foods to
                   donate and assist with the draught relief.</p>
               </div>
-              <router-link to="/blog/blog-4" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-4" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
@@ -122,7 +122,7 @@
                   because that's where the business is – “we simply wanted to offer our clients a centralized and even
                   more effective service than what they've become used to”</p>
               </div>
-              <router-link to="/blog/blog-3" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-3" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
@@ -139,7 +139,7 @@
                   Jet.X Couriers all sport the same identity under the brand name by which it's become known for -
                   service, performance, quality and reliability.</p>
               </div>
-              <router-link to="/blog/blog-2" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-2" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
             <div class="wow fadeInUp" data-wow-delay="0.3s">
               <img src="media/blog/beginnings.jpg" alt="FP Du Toit">
@@ -152,7 +152,7 @@
               <div class="post-content">
                 <p>With millions of kilometers on the clock we've not lost the appetite for what it is we're doing ....</p>
               </div>
-              <router-link to="/blog/blog-1" class="btn btn-success btn-default read-more">READ MORE</router-link>
+              <router-link to="/blog/blog-1" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
           </div>
         </div>

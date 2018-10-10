@@ -14,7 +14,7 @@
                   </div>
                   <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
                       <div class="text-right header-padding">
-                          <div class="h-block"><span>CALL US</span>+264 (0) 61 372 900</div>
+                          <div class="h-block"><span>CALL US</span>+26461372900</div>
                           <!-- <div class="h-block"><span>EMAIL US</span>info@domain.com</div> -->
                           <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div>
                           <router-link class="btn btn-success" to="/contact">GET A QUOTE</router-link>

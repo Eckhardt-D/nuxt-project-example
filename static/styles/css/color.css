@@ -60,7 +60,17 @@ footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .bt
 	color: black;
 }
 
+.btn.btn-success.special-home-two, .btn.btn-sm.btn-success.special-home-two:before {
+	background-color:#fff;
+	color: black;
+}
+
+
 .btn-success.special-services::after {
+	background: #006854!important;
+}
+
+.btn-success.special-home-two::after {
 	background: #006854!important;
 }
 
@@ -76,7 +86,7 @@ h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter
 .navbar-main > li > a:hover,
 .navbar-main > li > .dropdown-menu > li > a:focus,
 .navbar-main > li > .dropdown-menu > li > a:hover{
-	color:#f28e35;
+	color:white;
 }
  nav.pagination a, .nav-tabs > li.active{
 	color: black!important;
@@ -88,17 +98,17 @@ h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter
 	color: black!important;
 }
 .stats > div > div:hover, .info-texts div > div > div:first-child:before, ul.styled li > ul{
-	border-bottom-color:#f28e35;
+	border-bottom-color:white;
 }
 .big-hr.color-1:before, .big-hr.color-1:after, .info-texts div > div > div:first-child:before{
-    border-top-color:#f28e35; 
+    border-top-color:grey; 
 }
 .btn.btn-success, .btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active,  .info-texts:before, ul.blog-cats > li:before, ul.blog-cats li > ul{
-	background-color:#f28e35;
+	background-color:grey;
 }
 @media screen and (max-width: 768px){
 	.info-texts div > div > div:first-child p{
-		background:#f28e35;
+		background:white;
 	}
 }
 /*---------------------------------------------*/

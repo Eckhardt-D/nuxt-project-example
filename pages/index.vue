@@ -6,7 +6,7 @@
     <div class="item">
       <img src="media/main-slider/1.jpg" alt="slider">
       <div class="container-fluid">
-        <div class="slider-content col-md-6 col-lg-6">
+        <div class="slider-content col-md-6 col-lg-6 ">
           <div style="display:table;">
             <div style="display:table-cell; width:100px; vertical-align:top;">
               <a class="prev"><i class="fa fa-angle-left"></i></a>
@@ -18,7 +18,7 @@
           </div>
           <p>What started out in 1968 as a small Northern Cape family business, 
             FP du Toit Transport Group has grown into one of Southern Africa’s 
-            major transport and freight companies.<br><router-link class="btn btn-success" to="/about">LEARN MORE</router-link></p>
+            major transport and freight companies.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
             </div>
           </div>
           <p>These are the passions behind the huge success and exceptional track 
-            record of this home-grown logistics giant.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
     </div>

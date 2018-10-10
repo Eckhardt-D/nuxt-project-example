@@ -93,49 +93,49 @@
           depotTitle: 'Windhoek',
           mainAddress: '5 Nordland St, Lafrenz Industria, Windhoek',
           depotAddress: '36-40 Nickle St, Prosperita, Windhoek',
-          mainPhone: '+264 (0) 61 372 900',
-          depotPhone: '+264 (0) 61 2945000',
+          mainPhone: '+26461372900',
+          depotPhone: '+264612945000',
           class: 'windhoek'
         },
         {
           mainTitle: 'Keetmanshoop',
           mainAddress: '116 6th Lane, Keetmanshoop',
-          mainPhone: '+264 (0) 63 225324',
+          mainPhone: '+26463225324',
           class: 'keetmans',
         },
         {
           mainTitle: 'Johannesburg',
           mainAddress: '301 Deodar St, Pomona, Johannesburg',
-          mainPhone: '+27 (0) 11 578 9900',
+          mainPhone: '+27115789900',
           class: 'joburg',
         },
         {
           mainTitle: 'Cape Town',
           mainAddress: 'C/O Cilmore and Krakeel Streets, Stikland, Bellville, Cape Town',
-          mainPhone: '+27 (0) 21 946 4500',
+          mainPhone: '+27219464500',
           class: 'capetown',
         },
         {
           mainTitle: 'Walvis Bay',
           mainAddress: '215 4th Street East, Walvis Bay',
-          mainPhone: '+264 (0) 64 200848',
+          mainPhone: '+26464200848',
           class: 'wbay',
         },
         {
           mainTitle: 'Oshakati',
           mainAddress: '2397 Oshopala St, Oshakati',
-          mainPhone: '+264 (0) 83 294 5190',
+          mainPhone: '+264832945190',
           class: 'oshakati',
         },
         {
           mainTitle: 'Tsumeb',
           mainAddress: '4 Hage Geingob Drive, Tsumeb',
-          mainPhone: '+264 (0) 67 221100',
+          mainPhone: '+26467221100',
           class: 'tsumeb',
         },
         {
           mainTitle: 'Durban',
-          mainPhone: '+264 (0) 67 221100',
+          mainPhone: '+26467221100',
           class: 'durban',
         }
       ]
