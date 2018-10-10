@@ -134,7 +134,7 @@
     <div class="bg-image parallax" style="background-image:url(media/bg/4.jpg);">
       <div class="container-fluid text-center wow fadeInUp" data-wow-delay="0.3s">
         <h1>WE ARE DEDICATED TO PROVIDE THE BEST SERVICE <br> AT THE LOWEST POSSIBLE COST</h1>
-        <router-link class="btn btn-success" to="/services">READ MORE</router-link>
+        <router-link class="btn btn-success special-home-two" to="/services">READ MORE</router-link>
       </div>
     </div>
 

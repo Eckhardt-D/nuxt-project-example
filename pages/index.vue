@@ -82,7 +82,7 @@
         <h2>The Team at FP du Toit Transport Group is always Driven to Deliver!</h2>
         <p>In an increasingly globalized world, time is of the essence.</p>
       </div>
-      <div><router-link class="btn btn-success btn-lg" to="/contact">REQUEST A QUOTE</router-link></div>
+      <div><router-link class="btn btn-success special-home-two" to="/contact">REQUEST A QUOTE</router-link></div>
     </div>
 
     <div class="container-fluid block-content">

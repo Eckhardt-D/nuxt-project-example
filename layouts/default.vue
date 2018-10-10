@@ -37,10 +37,9 @@ export default {
   methods: {
     showFb() {
       let clicker = $('#facebook-clicker')
-      console.log(clicker[0].style.left)
       if(clicker[0].style.left === '') {
         $('#hidden-fb').toggle()
-        clicker.animate({left: "+=340"}, 600, () => console.log('done'))
+        clicker.animate({left: "+=340"}, 400, () => console.log('done'))
         $('#hidden-fb').animate({left: "500px"}, 1000, () => console.log('done'))
       } else {
         clicker[0].style.left = ''
@@ -56,23 +55,28 @@ export default {
 .fb-page {
   z-index: 1000;
   position: fixed!important;
-  top: 0;
+   top: calc(50% - 130px);
   left: 0;
 }
 
 #facebook-clicker {
   cursor: pointer;
   z-index: 1000;
-  width: 272px;
+  width: 170px;
   height: 60px;
   position: fixed;
-  top: -8px;
-  left: -120px;
+  top: calc(50% - 75px);
+  left: -59px;
   background-image: url('~/media/images/facebook.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(-90deg);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 5%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+@media screen and (max-width: 615px) {
+  #facebook-clicker {
+    display: none;
+  }
 }
 </style>

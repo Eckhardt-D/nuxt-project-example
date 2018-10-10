@@ -63,15 +63,26 @@ footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .bt
 .btn.btn-success.special-home-two, .btn.btn-sm.btn-success.special-home-two:before {
 	background-color:#fff;
 	color: black;
+	
 }
+
+.btn.btn-success.special-home-two:hover {
+	color: white;
+	z-index: 1000;
+}
+
 
 
 .btn-success.special-services::after {
 	background: #109547!important;
+	z-index: -1;
+	opacity: 1;
 }
 
 .btn-success.special-home-two::after {
 	background: #109547!important;
+	z-index: -1;
+	opacity: 1;
 }
 
 /*---------------------------------------------*/
