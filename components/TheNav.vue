@@ -37,9 +37,9 @@
                             <li><a target="_blank" href="http://ponline.fpdt.na/pponline/login.php">Customer Login</a></li>
                         </ul>
 					</li>
-                  <li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li>
+                  <!-- <li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li> -->
                 </ul>
-                <div class="search-form-modal transition">
+                <!-- <div class="search-form-modal transition">
                   <form class="navbar-form header_search_form">
                     <i class="fa fa-times search-form_close"></i>
                     <div class="form-group">
@@ -47,7 +47,7 @@
                     </div>
                     <button type="submit" class="btn btn_search customBgColor">Search</button>
                   </form>
-                </div>
+                </div> -->
               </nav>
               <a id="menu-close" href="#"><i class="fa fa-times"></i></a>
           </div>

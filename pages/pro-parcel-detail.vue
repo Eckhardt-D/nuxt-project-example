@@ -17,7 +17,7 @@
 						<div class="row">                    	
 							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
 								<img height="369px" src="media/images/cross-border.jpg" class="full-width" alt="Img">
-								<h4>Services:</h4>
+								<h4>Services</h4>
 								<p>Priority
 									• Door-to-Door
 

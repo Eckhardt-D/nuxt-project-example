@@ -17,7 +17,7 @@
 						<div class="row">                    	
 							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
 								<img height="369px" src="media/images/cross-border.jpg" class="full-width" alt="Img">
-								<h4>Cross Border:</h4>
+								<h4>Cross Border</h4>
 								<p>Courier freight is received in Windhoek from CapeTown and Johannesburg Monday to Saturday using multiple departures.  
                   The cross border route from Johannesburg is serviced with a minimum of 3 vehicles; but regularly 5 vehicles are operated daily.  
                   This includes a 36 ton SpeedLink Taut-liner with 2 driver; driving non-stop to Windhoek; a 12 ton vehicle with the flexibility to attach a trailer;
@@ -28,7 +28,7 @@
 							</div>
 							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
 								<img src="media/images/domestic.png" class="full-width" alt="Img">
-								<h4>Domestic:</h4>
+								<h4>Domestic</h4>
 								<p>JET.X Couriers offer daily (Monday to Friday) deliveries to all Namibian destinations and dedicated pharmaceutical deliveries on Saturdays. 
                   Because our courier and parcel distribution networks have similar footprints, we have the flexibility to utilise the large vehicles of our Pro Parcel service. 
                    Therefor we never run out of capacity.  We pride ourselves in keeping our customers’ needs close to the heart of our business.  
