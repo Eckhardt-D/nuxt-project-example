@@ -29,6 +29,7 @@
                   <li><router-link to="/services">SERVICES</router-link></li>
                   <li><router-link to="/about">ABOUT US</router-link></li>
                   <li><router-link to="/contact">CONTACT</router-link></li>
+                  <li><router-link to="/blog">NEWS</router-link></li>
                   <li class="dropdown">
                         <a style="cursor: pointer;" data-toggle="dropdown" class="dropdown-toggle border-hover-color1">eService <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
