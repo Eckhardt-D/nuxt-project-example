@@ -20,7 +20,7 @@
           <li><a href="#" data-filter=".keetmans">Keetmanshoop</a></li>
           <li><a href="#" data-filter=".joburg">Johannesburg</a></li>
           <li><a href="#" data-filter=".capetown">Cape Town</a></li>
-          <li><a href="#" data-filter=".ohsakati">Oshakati</a></li>
+          <li><a href="#" data-filter=".oshakati">Oshakati</a></li>
           <li><a href="#" data-filter=".tsumeb">Tsumeb</a></li>
           <li><a href="#" data-filter=".durban">Durban</a></li>
         </ul>
