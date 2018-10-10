@@ -24,34 +24,34 @@ header, .topmenu nav:first-child:before{
 /*---------- CHANGE COLOR TWO ----------*/
 .navbar-main > li > .dropdown-menu,
 footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .btn.btn-danger:hover, .main-menu, .main-menu:before, #main-menu-bg, .stats > div > div:hover, .btn.btn-sm.btn-default:before, .big-hr.color-2, .our-services.styled div > a:hover:after, .adress-details > div > span:after, .comments > div > a.reply:hover, .comments > div > a.reply:after, nav.pagination a:hover, .tags a:hover, ul.blog-cats > li:hover, #menu-open, .main-menu section nav, .our-services div > a:hover > span, .testimonial-content span, .info-texts:after, .post-info:after, .customBgColor{
-	background-color:#006854;
+	background-color:#109547;
 }
 .stats > div > div:hover, .btn.btn-sm.btn-default:hover, .comments > div > a.reply:hover, nav.pagination a:hover, .tags a:hover, ul.blog-cats li:hover, .our-services div > a:hover > span, .testimonial-content span{
-	border-color:#006854;
+	border-color:#109547;
 }
 .big-hr.color-2:before, .big-hr.color-2:after, .info-texts div > div > div:last-child:before{
-    border-top-color:#006854; 
+    border-top-color:#109547; 
 }
 .our-services div > a:hover > span:before, .our-services div > a:hover > span:after, .testimonial-content span:before, .testimonial-content span:after{
-	border-bottom-color: #006854; 
+	border-bottom-color: #109547; 
 }
 .stats span:first-child, footer .copy a, .twitter-feeds div span, .recent-posts div a:hover{
-	color:#006854;
+	color:#109547;
 }
 @media screen and (max-width: 768px){
 	.info-texts div > div > div:last-child p{
-		background:#006854;
+		background:#109547;
 	}
 	#menu-close,.main-menu a:hover{
-		color:#006854;
+		color:#109547;
 	}
 }
 .ip-header .ip-loader svg path.ip-loader-circle {
-	stroke: #006854;
+	stroke: #109547;
 }
 
 .btn.btn-success.special-home,.nav-tabs > li > a, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover,.btn-success.special-home:hover, .btn.btn-sm.btn-success.special-home:before  {
-	background-color:#006854;
+	background-color:#109547;
 	color: white;
 }
 
@@ -67,11 +67,11 @@ footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .bt
 
 
 .btn-success.special-services::after {
-	background: #006854!important;
+	background: #109547!important;
 }
 
 .btn-success.special-home-two::after {
-	background: #006854!important;
+	background: #109547!important;
 }
 
 /*---------------------------------------------*/
@@ -91,7 +91,7 @@ h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter
  nav.pagination a, .nav-tabs > li.active{
 	color: black!important;
 	border: white;
-	border-right: 4px solid #006854;
+	border-right: 4px solid #109547;
 }
 
 .nav-tabs > li.active > a {
