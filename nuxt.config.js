@@ -53,8 +53,9 @@ module.exports = {
     { src: '~/plugins/webfont.js', ssr: false},
     { src: '~/plugins/firebase.js', ssr: false},
     { src: '~/plugins/google-maps.js', ssr: false},
+    { src: '~/plugins/VueFacebookPage.js', ssr: false},
   ],
-
+// 
   /*
   ** Nuxt.js modules
   */
