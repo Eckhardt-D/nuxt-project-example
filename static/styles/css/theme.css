@@ -120,6 +120,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 }
 #logo{
 	background-image:url(../img/logo.png);
+	background-size: cover;
 	width:244px;
 	height:42px;
 	background-repeat:no-repeat;
@@ -411,7 +412,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 }
 #fleet-gallery img{
 	width:100%;
-	height:auto;
+	height:176px;
 }
 #fleet-gallery .owl-buttons{
 	margin-top:15px;

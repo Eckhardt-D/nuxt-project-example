@@ -47,31 +47,31 @@
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/1.png" alt="slider">
           <h3>FP du Toit</h3>
-          <p style="min-height: 135px;">A transport group that is made up of a number of business units, with their own
+          <p style="min-height: 160px;">A transport group that is made up of a number of business units, with their own
             focus markets and transport service offerings.
           </p>
-          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/4.png" alt="Img">
-          <h3>Pro Parcel Distribution</h3>
-          <p style="min-height: 135px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
-            Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
-          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
+          <button @click="$store.dispatch('changeService', 'FP DU TOIT')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/3.png" alt="Img">
+          <h3>Pro Parcel Distribution</h3>
+          <p style="min-height: 160px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
+            Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
+          <button @click="$store.dispatch('changeService', 'PRO PARCEL')" class="btn btn-success special-home">READ MORE</button>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
+          <img class="lazy" src="media/3-column-info/2.png" alt="Img">
           <h3>JET.X Couriers</h3>
-          <p style="min-height: 135px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn 
+          <p style="min-height: 160px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn 
             Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
-          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
+          <button @click="$store.dispatch('changeService', 'JET.X COURIERS')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/2.png" alt="Img">
+          <img class="lazy" src="media/3-column-info/4.png" alt="Img">
           <h3>Wesbank Transport</h3>
-          <p style="min-height: 135px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
+          <p style="min-height: 160px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
             including customized consolidation, distribution, logistics and storage services.</p>
-          <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
+          <button @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')" class="btn btn-success special-home">READ MORE</button>
         </div>
       </div>
     </div>
@@ -274,10 +274,10 @@
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link style="background:white!important;" to="/services"><img class="lazy" width="245px" src="media/3-column-info/1.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link style="background:white!important;" to="/services"><img class="lazy" width="245px" src="media/3-column-info/4.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link style="background:white!important;" to="/services"><img class="lazy" width="245px" src="media/3-column-info/3.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link style="background:white!important;" to="/services"><img class="lazy" width="245px" src="media/3-column-info/2.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/1.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/4.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/3.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/2.png" alt="Img"></router-link></div>
     </div>
   </div>
 </div>

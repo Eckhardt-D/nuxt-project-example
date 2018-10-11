@@ -4,10 +4,14 @@
       <div class="container-fluid">
         <a href="#">
           <h1>OUR SERVICES</h1>
+          <img v-if="selectedService === 'FP DU TOIT'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/1.png" alt="">
+          <img v-if="selectedService === 'PRO PARCEL'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/3.png" alt="">
+          <img v-if="selectedService === 'JET.X COURIERS'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/2.png" alt="">
+          <img v-if="selectedService === 'WESBANK TRANSPORT'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/4.png" alt="">
         </a>
         <div class="pull-right">
           <a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/services">Our
-            services</a>
+            services</a> 
         </div>
       </div>
     </div>
@@ -15,11 +19,11 @@
     <div class="inner-offset darken-block">
       <div class="container-fluid">
         <ul class="nav nav-tabs wow zoomIn" data-wow-delay="0.3s" id="filter">
-          <li class="active"><a href="#" data-filter=".allservices">All services</a></li>
-          <li><a href="#" data-filter=".fpdutoit">FP DU TOIT</a></li>
-          <li><a href="#" data-filter=".proparcel">PRO PARCEL</a></li>
-          <li><a href="#" data-filter=".jetxcouriers">JET.X COURIERS</a></li>
-          <li><a href="#" data-filter=".wesbank">WESBANK TRANSPORT</a></li>
+          <li @click="$store.dispatch('changeService', '')" class="active"><a href="#" data-filter=".allservices">All services</a></li>
+          <li @click="$store.dispatch('changeService', 'FP DU TOIT')"><a href="#" data-filter=".fpdutoit">FP DU TOIT</a></li>
+          <li @click="$store.dispatch('changeService', 'PRO PARCEL')"><a href="#" data-filter=".proparcel">PRO PARCEL</a></li>
+          <li @click="$store.dispatch('changeService', 'JET.X COURIERS')"><a href="#" data-filter=".jetxcouriers">JET.X COURIERS</a></li>
+          <li @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')"><a href="#" data-filter=".wesbank">WESBANK TRANSPORT</a></li>
         </ul>
       </div>
     </div>
@@ -162,9 +166,22 @@
 </template>
 
 <script>
+  import {mapGetters} from 'vuex'
+
   export default {
     mounted() {
-      Core.isotopeFilter();
+      Core.isotopeFilter()
+      
+      $('.nav-tabs li > a').each((tab, item) => {
+        if(item.innerText === this.selectedService) {
+          item.click()
+        }
+      })
+    },
+    computed: {
+      ...mapGetters([
+        'selectedService'
+      ])
     }
   }
 
