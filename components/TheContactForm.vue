@@ -45,6 +45,16 @@
                 <h4>SEND us a message</h4>
                 <div id="success"></div>
                 <form novalidate id="contactForm" class="reply-form form-inline">
+                  <div class="default-inp form-elem">
+                    <select  type="text" name="department" id="department">
+                      <option value="Choose a department">Choose a department</option>
+                      <option value="FP du Toit">FP du Toit</option>
+                      <option value="Pro Parcel">Pro Parcel</option>
+                      <option value="JET.X Couriers">JET.X Couriers</option>
+                      <option value="Wesbank Transport">Wesbank Transport</option>
+
+                    </select>
+                  </div>
                   <div class="row form-elem mb-0">
                     <div class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
@@ -56,7 +66,7 @@
                         <input type="text" name="user-email" id="user-email" placeholder="Email Address" required="required">
                       </div>
                     </div>
-                    <div class="col-sm-6 form-elem">
+                    <div style="margin-bottom: 15px;" class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa fa-user"></i>
                         <input type="text" name="user-lastname" id="user-lastname" placeholder="Last Name">
@@ -66,7 +76,26 @@
                         <input type="text" name="user-phone" id="user-phone" placeholder="Phone No.">
                       </div>
                     </div>
-                    
+                    <div class="col-sm-6 form-elem">
+                      <div class="default-inp form-elem">
+                        <i class="fa fa-arrows-h"></i>
+                        <input v-model="width" type="text" name="package-width" id="user-lastname" placeholder="Package width (cm)">
+                      </div>
+                      <div class="default-inp form-elem">
+                        <i class="fa fa-long-arrow-up"></i>
+                        <input v-model="height" type="text" name="package-height" id="user-phone" placeholder="Package height (cm)">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 form-elem">
+                      <div class="default-inp form-elem">
+                        <i class="fa  fa-long-arrow-right"></i>
+                        <input v-model="length" type="text" name="package-length" id="user-lastname" placeholder="Package length (cm)">
+                      </div>
+                      <div class="default-inp form-elem">
+                        <i class="fa fa-balance-scale"></i>
+                        <input v-model="volumetric" disabled type="text" name="volumetric_calc" id="user-phone" placeholder="Volumetric Factor">
+                      </div>
+                    </div>
                   </div>
                   <div class="default-inp form-elem">
                     <input type="text" name="user-subject" id="user-subject" placeholder="Subject">
@@ -89,6 +118,9 @@
 <script>
   export default {
     data: () => ({
+      length: '',
+      width: '',
+      height: '',
       contactDetails: [{
           mainTitle: 'Windhoek',
           depotTitle: 'Windhoek',
@@ -141,6 +173,11 @@
         }
       ]
     }),
+    computed: {
+      volumetric() {
+      if ((this.height * this.width * this.length) / 5000 !== 0) return (this.height * this.width * this.length) / 5000;
+      }
+    },
     mounted() {
       setTimeout(() => {
         $('[data-filter=".windhoek"]').click()
@@ -153,5 +190,13 @@
 <style scoped>
   .services div {
     margin-bottom: initial;
+  }
+
+  #department {
+    width:100%; 
+    border: none;
+    height: 50px;
+    padding: 0 24px; 
+    cursor: pointer;
   }
 </style>
