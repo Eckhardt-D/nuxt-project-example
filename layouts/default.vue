@@ -17,6 +17,9 @@ import TheNav from '@/components/TheNav'
 import TheFooter from '@/components/TheFooter'
 
 export default {
+  mounted() {
+    $(function(){$('.lazy').Lazy()});
+  },
   components: {
     TheNav,
     TheFooter

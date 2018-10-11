@@ -66,6 +66,7 @@
                         <input type="text" name="user-phone" id="user-phone" placeholder="Phone No.">
                       </div>
                     </div>
+                    
                   </div>
                   <div class="default-inp form-elem">
                     <input type="text" name="user-subject" id="user-subject" placeholder="Subject">
@@ -74,7 +75,7 @@
                     <textarea id="user-message" placeholder="Message"></textarea>
                   </div>
                   <div class="form-elem">
-                    <button type="submit" class="btn btn-success btn-default">send message</button>
+                    <button type="submit" class="btn btn-success special-home">send message</button>
                   </div>
                 </form>
               </div>

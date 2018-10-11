@@ -17,7 +17,7 @@
 
 /* Global */
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'EB Garamond';
 }
 body.menu-open{
 	overflow: hidden;
@@ -71,7 +71,7 @@ hgroup h1, hgroup h2{
 }
 .hgroup h2,
 hgroup h2{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'EB Garamond';
 	font-weight:400;
 	font-size:14px;
 	color:#888;
@@ -144,7 +144,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 }
 .main-menu{
 	position:relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'EB Garamond';
 	text-transform:uppercase;
 	height:65px;
 	line-height:62px;
@@ -429,7 +429,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 	position:relative;
 	text-indent:15px;
 	position:relative;
-	font-family:'Montserrat', sans-serif;
+	font-family:'EB Garamond';
 	list-style:none;
 	border-bottom:1px solid #eee;
 	padding:20px 30px 20px 0;
@@ -437,7 +437,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 .why-us li p{
 	margin-top:15px;
 	font-size:14px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'EB Garamond';
 	display:none;
 }
 .why-us li span{
@@ -449,7 +449,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 	height:25px;
 	line-height:25px;
 	text-align:center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'EB Garamond';
 	position:absolute;
 	right:5px;
 }
@@ -523,7 +523,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 	border:1px solid;
 	border-bottom:3px solid;
 	padding:35px 5px 35px 100px;
-	font-family:'Montserrat', sans-serif;
+	font-family:'EB Garamond';
 }
 
 
@@ -566,7 +566,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 	margin-bottom:30px;
 }
 .stats span.percent{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'EB Garamond';
 	display:block;
 	float:left;
 	font-size:36px;
@@ -803,7 +803,7 @@ footer p{
 }
 .info-texts{
 	position:relative;
-	font-family:'Montserrat', sans-serif;
+	font-family:'EB Garamond';
 }
 .info-texts p{
 	position:relative;
@@ -949,7 +949,7 @@ footer p{
 	padding:40px 0 30px 2px;
 }
 .team .user-info h4, .team .user-info small{
-	font-family:'Montserrat', sans-serif;
+	font-family:'EB Garamond';
 }
 .team .user-info p{
 	margin-top:20px;
@@ -1089,7 +1089,7 @@ ul.blog-cats > li > a:hover{
 	margin-right:15px;
 }
 .recent-posts div a{
-	font-family:'Montserrat', sans-serif;
+	font-family: 'EB Garamond';
 	font-weight:700;
 }
 .recent-posts div a:hover{
@@ -1276,7 +1276,7 @@ nav.pagination a + a{
 }
 .comments > div > span.author{
 	font-weight:700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'EB Garamond';
 	margin-right:35px;
 }
 .comments > div > span.date{
@@ -1298,7 +1298,7 @@ nav.pagination a + a{
 	text-transform:uppercase;
 	padding:0 15px;
 	font-size:10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'EB Garamond';
 }
 .comments > div > a.reply:after{
 	right:-1px;
@@ -1375,7 +1375,7 @@ nav.pagination a + a{
 .slider-content h1{
 	display:inline-block;
 	font-size:26px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'EB Garamond';
 	font-weight:700;
 	margin:0px;
 	padding-top:0px;

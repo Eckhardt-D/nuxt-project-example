@@ -11,6 +11,7 @@ module.exports = {
     { src: './styles/bootstrap4/bootstrap.min.js', body: true },
     { src: './plugins/OwlCarousel2-2.2.1/owl.carousel.js', body: true },
     { src: './plugins/js/jquery-ui.min.js', body: true },
+    { src: './js/jquery.lazy.min.js', body: true },
     { src: './plugins/js/modernizr.custom.js', body: true },
     { src: './plugins/easypiechart/jquery.easypiechart.min.js', body: true},
     { src: './plugins/js/waypoints.min.js', body: true},

@@ -14,7 +14,7 @@
 					<div class="col-sm-9 posts">
 						<div class="single-post">
 							<div class="wow fadeInUp" data-wow-delay="0.3s">
-								<img src="/media/fleet-gallery/3.jpg" alt="FP Du Toit">
+								<img src="/media/blog/3.jpg" alt="FP Du Toit">
 								<div class="post-info">
 									<span>BY ADMIN</span>
 									<span>Team, Company, Growth</span>

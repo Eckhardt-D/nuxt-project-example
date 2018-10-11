@@ -4,7 +4,7 @@
   <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false"
     data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
     <div class="item">
-      <img src="media/main-slider/1.jpg" alt="slider">
+      <img class="lazy" src="media/main-slider/1.webp" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="media/main-slider/2.jpg" alt="slider">
+      <img class="lazy" src="media/main-slider/2.webp" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -45,7 +45,7 @@
   <div class="container-fluid">
       <div class="row column-info block-content">
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
-          <img src="media/3-column-info/1.png" alt="slider">
+          <img class="lazy" src="media/3-column-info/1.webp" alt="slider">
           <h3>FP du Toit</h3>
           <p style="min-height: 135px;">A transport group that is made up of a number of business units, with their own
             focus markets and transport service offerings.
@@ -53,21 +53,21 @@
           <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img src="media/3-column-info/4.png" alt="Img">
+          <img class="lazy" src="media/3-column-info/4.webp" alt="Img">
           <h3>Pro Parcel Distribution</h3>
           <p style="min-height: 135px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
             Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
           <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img src="media/3-column-info/3.png" alt="Img">
+          <img class="lazy" src="media/3-column-info/3.webp" alt="Img">
           <h3>JET.X Couriers</h3>
           <p style="min-height: 135px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn 
             Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
           <router-link class="btn btn-success special-home" to="/services">READ MORE</router-link>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
-          <img src="media/3-column-info/2.png" alt="Img">
+          <img class="lazy" src="media/3-column-info/2.webp" alt="Img">
           <h3>Wesbank Transport</h3>
           <p style="min-height: 135px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
             including customized consolidation, distribution, logistics and storage services.</p>
@@ -88,7 +88,7 @@
     <div class="container-fluid block-content">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
         <h1>OUR SERVICES</h1>
-        <img width="30%" src="media/images/3.jpg" alt="">
+        <img class="lazy" width="30%" src="media/images/3.webp" alt="">
         <h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
       </div>
       <div class="row our-services">
@@ -145,12 +145,12 @@
       </div>
       <div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
         data-min450="2" data-min600="2" data-min768="4">
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/1.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/3.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/4.png" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/1.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/1.webp" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/2.webp" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/3.webp" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/4.webp" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/1.webp" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/2.webp" alt="Img"></div>
       </div>
     </div>
   </div>
@@ -274,10 +274,10 @@
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/1.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/4.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/3.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img height="50px" src="media/3-column-info/2.png" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img class="lazy" src="media/3-column-info/1.webp" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img class="lazy" src="media/3-column-info/4.webp" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img class="lazy" src="media/3-column-info/3.webp" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img class="lazy" height="50px" src="media/3-column-info/2.webp" alt="Img"></a></div>
     </div>
   </div>
 </div>
