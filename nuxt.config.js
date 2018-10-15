@@ -2,6 +2,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+ mode: 'spa',
  head: {
   title:"FP Du Toit",
   description: "Driven to Deliver",
@@ -51,6 +52,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/vista.js', ssr: false },
     { src: '~/plugins/webfont.js', ssr: false},
     { src: '~/plugins/firebase.js', ssr: false},
     { src: '~/plugins/google-maps.js', ssr: false},

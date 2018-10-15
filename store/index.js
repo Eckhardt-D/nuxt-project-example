@@ -1,9 +1,8 @@
 // Object Store
-
 import Vuex from 'vuex'
+import journey from './modules/journey'
 
 // Component-specific stores are in the modules/ firectory
-
 const Store = () => {
   return new Vuex.Store({
     /** These must exist in order for the modules to merge **/
@@ -34,7 +33,8 @@ const Store = () => {
 
     // Additional modules included from other files
     modules: {
-
+      namespaced: true,
+      journey
     }
   })
 }
