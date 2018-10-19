@@ -2,10 +2,11 @@ module.exports = {
   /*
   ** Headers of the page
   */
- mode: 'spa',
  head: {
   title:"FP Du Toit",
-  description: "Driven to Deliver",
+  meta: [
+    {name: 'Description', content: 'Driven to deliver'}
+  ],
   script: [
     { src: './js/jquery-1.11.3.min.js', body: true},
     { src: './styles/bootstrap4/popper.min.js', body: true },
@@ -52,19 +53,24 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/vista.js', ssr: false },
     { src: '~/plugins/webfont.js', ssr: false},
     { src: '~/plugins/firebase.js', ssr: false},
     { src: '~/plugins/google-maps.js', ssr: false},
     { src: '~/plugins/VueFacebookPage.js', ssr: false},
   ],
-// 
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@rainmakerdigital/nuxt-vista-sdk'
   ],
-
+  vista: {
+    credentials: {
+      vistaId: "5cee1176-348d-4cf3-8417-ed031ea25d4e",
+      secretKey: "d1DlWSQwzBGlezTy4rQSL9QpplI47iIU",
+      journeyKey: "af64-cf7b-a40b-05db-bff2-2452-4741-e1c4"
+    }
+  },
   /*
   ** Build configuration
   */
@@ -75,5 +81,6 @@ module.exports = {
     extend(config, ctx) {
       
     }
-  }
+  },
+ mode: 'spa',
 }
