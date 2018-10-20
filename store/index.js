@@ -33,7 +33,6 @@ const Store = () => {
 
     // Additional modules included from other files
     modules: {
-      namespaced: true,
       journey
     }
   })
