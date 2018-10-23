@@ -44,7 +44,7 @@
               <div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">
                 <h4>SEND us a message</h4>
                 <div id="success"></div>
-                <form novalidate id="contactForm" class="reply-form form-inline">
+                <form @submit.prevent novalidate id="contactForm" class="reply-form form-inline">
                   <div class="default-inp form-elem">
                     <select  type="text" name="department" id="department">
                       <option value="Choose a department">Choose a department</option>
@@ -193,10 +193,10 @@
   }
 
   #department {
-    width:100%; 
+    width:100%;
     border: none;
     height: 50px;
-    padding: 0 24px; 
+    padding: 0 24px;
     cursor: pointer;
   }
 </style>

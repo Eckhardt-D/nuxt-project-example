@@ -21,33 +21,24 @@
                       </div>
                   </div>
               </div>
-              <div id="main-menu-bg"></div>  
-              <a id="menu-open" href="#"><i class="fa fa-bars"></i></a> 
+              <div id="main-menu-bg"></div>
+              <a id="menu-open" href="#"><i class="fa fa-bars"></i></a>
               <nav class="main-menu navbar-main-slide">
                 <ul class="nav navbar-nav navbar-main">
-                  <li><router-link to="/">HOME</router-link></li>
                   <li><router-link to="/services">SERVICES</router-link></li>
                   <li><router-link to="/about">ABOUT US</router-link></li>
-                  <li><router-link to="/contact">CONTACT</router-link></li>
                   <li><router-link to="/blog">NEWS</router-link></li>
                   <li class="dropdown">
-                        <a style="cursor: pointer;" data-toggle="dropdown" class="dropdown-toggle border-hover-color1">eService <i class="fa fa-angle-down"></i></a>
+                        <a style="cursor: pointer;" data-toggle="dropdown" class="dropdown-toggle border-hover-color1">e-Services <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a target="_blank" href="http://tracking.parcelperfect.com/2500.2704.3249/">Parcel Tracking</a></li>
                             <li><a target="_blank" href="http://ponline.fpdt.na/pponline/login.php">Customer Login</a></li>
+                            <li><router-link to="/downloads">DOWNLOADS</router-link></li>
                         </ul>
-					</li>
-                  <!-- <li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li> -->
+					        </li>
+                  <li><router-link to="/contact">CONTACT</router-link></li>
+                  <li><router-link to="/vacancies">VACANCIES</router-link></li>
                 </ul>
-                <!-- <div class="search-form-modal transition">
-                  <form class="navbar-form header_search_form">
-                    <i class="fa fa-times search-form_close"></i>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn_search customBgColor">Search</button>
-                  </form>
-                </div> -->
               </nav>
               <a id="menu-close" href="#"><i class="fa fa-times"></i></a>
           </div>

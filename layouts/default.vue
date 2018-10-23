@@ -27,3 +27,8 @@ export default {
 }
 </script>
 
+<style>
+  .art-article {
+    padding-left: 70px;
+  }
+</style>
