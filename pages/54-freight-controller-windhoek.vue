@@ -29,11 +29,16 @@
   <p> </p>
   <p> </p>
   <p><a href="/index.php?id=37" rel="alternate">Apply Here...</a></p>
+  <TheVacancyForm/>
   </div>
 </template>
 
 <script>
+import TheVacancyForm from '@/components/TheVacancyForm'
 export default {
+  components: {
+    TheVacancyForm
+  }
 }
 </script>
 

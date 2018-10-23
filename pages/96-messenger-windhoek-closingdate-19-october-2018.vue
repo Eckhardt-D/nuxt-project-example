@@ -8,12 +8,16 @@
   <p>        A valid grade 12 (with at least 23 points) <br />        At least 2-3 years’ applied experience <br />        Valid applicable Code B Driver’s License <br />        Police clearance certificate (not older than 1 year) - No criminal record <br />        Good oral and written communication <br />        Friendly disposition and an excellent communicator <br />        Exceptional interpersonal skills <br />        Namibian citizenship <br />        Sober habits </p>
   <p> </p>
   <p><span style="font-size: 9.000000pt; font-family: 'Calibri,Bold';"><a href="/index.php?id=37" rel="alternate">Apply Here...</a></span></p>
-  </div></div></article></div>
-
+   <TheVacancyForm/>
+  </div>
 </template>
 
 <script>
+import TheVacancyForm from '@/components/TheVacancyForm'
 export default {
+  components: {
+    TheVacancyForm
+  }
 }
 </script>
 
