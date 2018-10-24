@@ -16,17 +16,17 @@
     <div class="inner-offset darken-block">
       <div class="container-fluid">
         <ul class="nav nav-tabs wow zoomIn" data-wow-delay="0.3s" id="filter">
-          <li id="activeItem" class="active"><a href="#" data-filter=".windhoek">Windhoek</a></li>
-          <li><a href="#" data-filter=".keetmans">Keetmanshoop</a></li>
-          <li><a href="#" data-filter=".joburg">Johannesburg</a></li>
-          <li><a href="#" data-filter=".capetown">Cape Town</a></li>
-          <li><a href="#" data-filter=".oshakati">Oshakati</a></li>
-          <li><a href="#" data-filter=".tsumeb">Tsumeb</a></li>
-          <li><a href="#" data-filter=".durban">Durban</a></li>
+          <li @click="setSelectedPlace" id="activeItem" class="active"><a href="#" data-filter=".windhoek">Windhoek</a></li>
+          <li @click="setSelectedPlace"><a data-filter=".keetmans" href="#" >Keetmanshoop</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".joburg">Johannesburg</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".capetown">Cape Town</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".oshakati">Oshakati</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".tsumeb">Tsumeb</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".durban">Durban</a></li>
         </ul>
       </div>
     </div>
-    <TheContactForm/>
+    <TheContactForm :selectedPlace="selectedPlace"/>
   </div>
 </template>
 
@@ -36,15 +36,25 @@
   import TheContactForm from '~/components/TheContactForm'
 
   export default {
+    data: function() {
+      return {
+        selectedPlace: 'windhoek'
+      }
+    },
     created() {
       this.googlemap = () => TheMap()
-
     },
     mounted() {
       Core.isotopeFilter()
     },
     components: {
       TheContactForm
+    },
+    methods: {
+      setSelectedPlace(e) {
+        this.selectedPlace = e.target.attributes['data-filter'].value.replace('.', '')
+        $(e.target).click()
+      }
     }
   }
 

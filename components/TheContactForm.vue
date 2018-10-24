@@ -1,9 +1,8 @@
 <template>
-  <!-- Windhoek -->
     <div class="container-fluid inner-offset wow zoomIn" data-wow-delay="0.3s">
       <div class="tab-content row services">
-        <div class="tab-pane active isotope-filter">
-          <div v-for="(office, index) in contactDetails" :class="office.class" class="container-fluid block-content isotope-item" :key="index">
+        <div style="min-height: 1000px" class="tab-pane active isotope-filter">
+          <div v-if="office.class === selectedPlace" v-for="(office, index) in contactDetails" :class="office.class" class="container-fluid block-content isotope-item" :key="index">
             <div class="row main-grid">
               <div class="col-sm-4">
                 <h4>{{office.mainTitle}} Head Office</h4>
@@ -47,12 +46,11 @@
                 <form @submit.prevent novalidate id="contactForm" class="reply-form form-inline">
                   <div class="default-inp form-elem">
                     <select class="form_input" v-model="formData.department" type="text" name="department" id="department">
-                      <option value="Choose a department">Choose a department</option>
+                      <option value="" disabled selected hidden>Please choose a department...</option>
                       <option value="FP du Toit">FP du Toit</option>
                       <option value="Pro Parcel">Pro Parcel</option>
                       <option value="JET.X Couriers">JET.X Couriers</option>
                       <option value="Wesbank Transport">Wesbank Transport</option>
-
                     </select>
                   </div>
                   <div class="row form-elem mb-0">
@@ -104,9 +102,8 @@
                     <textarea class="form_input" v-model="formData.message" id="user-message" placeholder="Message"></textarea>
                   </div>
                   <div class="form-elem">
-                    <button @click="sendSanitizedForm" type="submit" class="btn btn-success special-home">send message</button>
+                    <button @click="sendSanitizedForm()" type="submit" class="btn btn-success special-home">send message</button>
                   </div>
-
                 </form>
                  <h2 v-if="formError.isError" style="color: red; z-index: 1000">Oops!<span>{{formError.message}}</span></h2>
                  <h2 v-if="!mailStatus && mailStatus !== null" style="color: red; z-index: 1000">Oops!<span> An error occurred, please try later.</span></h2>
@@ -192,6 +189,7 @@ import {mapGetters} from 'vuex'
         }
       ]
     }),
+    props: ['selectedPlace'],
     computed: {
       volumetric() {
         if ((this.formData.height * this.formData.width * this.formData.length) / 5000 !== 0) return (this.formData.height * this.formData.width * this.formData.length) / 5000;
@@ -218,14 +216,15 @@ import {mapGetters} from 'vuex'
         {
           this.formError.isError = true
           this.formError.message = ` Please enter a valid email address.`
-        } else if(!this.formData.phone.match(/^\+\d{1,15}$/))
+          return
+        } else if(!this.formData.phone.match(/^\+\d{10,15}$/))
         {
           this.formError.isError = true
           this.formError.message = ` Please enter a valid cellphone number.`
+          return
         } else {
           let cleanData = this.formData
           cleanData.volumetric = this.volumetric
-
           this.$store.dispatch('sendSanitizedMessage', cleanData)
         }
       },
@@ -240,8 +239,18 @@ import {mapGetters} from 'vuex'
             check = true
           }
         })
-
         return check
+      }
+    },
+    watch: {
+      formData: {
+        handler: function() {
+          this.formError.isError = false
+        },
+        deep: true
+      },
+      selectedPlace: function() {
+        $('.isotope-filter')[0].style.height = 'auto'
       }
     }
   }
