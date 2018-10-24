@@ -2,9 +2,9 @@
   <div class="vacancies">
   <p><strong>VACANCIES</strong></p>
   <p>Applications are invited for the following positions:</p>
-  <p><a href="/97-assistant-accountant-windhoek-closingdate-22-october-2018">ASSISTANT ACCOUNTANT Windhoek - CLOSINGDATE: 22 October 2018</a></p>
-  <p><a href="/96-messenger-windhoek-closingdate-19-october-2018">MESSENGER Windhoek - CLOSINGDATE: 19 October 2018 </a></p>
-  <p><a href="/54-freight-controller-windhoek">Freight Controller Jet.X Couriers CLOSINGDATE: 17 October 2018</a></p>
+  <p><router-link to="/assistant-accountant">ASSISTANT ACCOUNTANT Windhoek - CLOSINGDATE: 22 October 2018</router-link></p>
+  <p><router-link to="/messenger">MESSENGER Windhoek - CLOSINGDATE: 19 October 2018 </router-link></p>
+  <p><router-link to="/freight-controller">Freight Controller Jet.X Couriers CLOSINGDATE: 17 October 2018</router-link></p>
   </div>
 </template>
 

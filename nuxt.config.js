@@ -1,4 +1,4 @@
-import webpack from 'webpack'
+const webpack = require('webpack');
 
 module.exports = {
   /*
@@ -58,13 +58,7 @@ module.exports = {
     { src: '~/plugins/webfont.js', ssr: false},
     { src: '~/plugins/firebase.js', ssr: false},
     { src: '~/plugins/google-maps.js', ssr: false},
-    { src: '~/plugins/VueFacebookPage.js', ssr: false},
-    // set shortcuts as global for bootstrap
-    new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery'
-    }),
+    { src: '~/plugins/VueFacebookPage.js', ssr: false}
   ],
   /*
   ** Nuxt.js modules
@@ -87,7 +81,13 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-
+      plugins: [
+        new webpack.ProvidePlugin({
+          jQuery: 'jquery',
+          $: 'jquery',
+          'window.jQuery': 'jquery',
+        })
+      ]
     }
   },
  mode: 'spa',
