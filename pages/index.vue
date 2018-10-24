@@ -16,8 +16,8 @@
               <h1>CELEBRATING 50 YEARS OF SERVICE</h1>
             </div>
           </div>
-          <p>What started out in 1968 as a small Northern Cape family business, 
-            FP du Toit Transport Group has grown into one of Southern Africa’s 
+          <p>What started out in 1968 as a small Northern Cape family business,
+            FP du Toit Transport Group has grown into one of Southern Africa’s
             major transport and freight companies.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
@@ -35,7 +35,7 @@
               <h1 class="text-uppercase">Quality, reliability, service and relationships</h1>
             </div>
           </div>
-          <p>These are the passions behind the huge success and exceptional track 
+          <p>These are the passions behind the huge success and exceptional track
             record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
@@ -55,21 +55,21 @@
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/3.png" alt="Img">
           <h3>Pro Parcel Distribution</h3>
-          <p style="min-height: 160px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997. 
+          <p style="min-height: 160px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997.
             Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
           <button @click="$store.dispatch('changeService', 'PRO PARCEL')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/2.png" alt="Img">
           <h3>JET.X Couriers</h3>
-          <p style="min-height: 160px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn 
+          <p style="min-height: 160px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn
             Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
           <button @click="$store.dispatch('changeService', 'JET.X COURIERS')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/4.png" alt="Img">
           <h3>Wesbank Transport</h3>
-          <p style="min-height: 160px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa, 
+          <p style="min-height: 160px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa,
             including customized consolidation, distribution, logistics and storage services.</p>
           <button @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')" class="btn btn-success special-home">READ MORE</button>
         </div>
@@ -92,45 +92,45 @@
         <h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
       </div>
       <div class="row our-services">
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
+          <router-link style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image.png')" class="service-bg" to="/services">
             <span><i class="glyph-icon flaticon-boats4"></i></span>
-            <h4>CLIENT SHIPMENTS</h4>
+            <h4 style="color: white;">CLIENT SHIPMENTS</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
+          <router-link class="service-bg" style="background: url('/media/images/image (1).png');background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; " to="/services">
             <span><i class="glyph-icon flaticon-flying"></i></span>
-            <h4>AIR EXPRESS</h4>
+            <h4 style="color: white;">AIR EXPRESS</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
+          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (2).png')" to="/services">
             <span><i class="glyph-icon flaticon-garage1"></i></span>
-            <h4>CROSS-BORDER</h4>
+            <h4 style="color: white;">CROSS-BORDER</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
+          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (3).png')" to="/services">
             <span><i class="glyph-icon flaticon-package7"></i></span>
-            <h4>MATERIAL HANDLING</h4>
+            <h4 style="color: white;">MATERIAL HANDLING</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
+          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (4).png')" to="/services">
             <span><i class="glyph-icon flaticon-railway1"></i></span>
-            <h4>CRANE HIRE</h4>
+            <h4 style="color: white;">CRANE HIRE</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
-          <router-link to="/services">
+        <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
+          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (5).png')" to="/services">
             <span><i class="glyph-icon flaticon-traffic-signal"></i></span>
-            <h4>OPERATOR TRAINING</h4>
+            <h4 style="color: white;">OPERATOR TRAINING</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
@@ -168,7 +168,7 @@
             <div class="testimonial-content">
               <span><i class="fa fa-quote-left"></i></span>
               <p>A world class service provider of specialised logistics and transport solutions to selected customers,
-                focused on rendering exceptional client service, generating fair returns for its shareholders and 
+                focused on rendering exceptional client service, generating fair returns for its shareholders and
                 providing rewarding careers to its employees.
               </p>
             </div>
@@ -193,7 +193,7 @@
           <div>
             <div class="testimonial-content">
               <span><i class="fa fa-quote-left"></i></span>
-              <p>To achieve the above vision we need to be a market-driven company with a sharp customer focus in all areas. 
+              <p>To achieve the above vision we need to be a market-driven company with a sharp customer focus in all areas.
                 Ultimately, our staff determines the quality of service we render to our customers.
               </p>
             </div>
@@ -223,13 +223,13 @@
           </li>
           <li>
             Staff training and safety is vital
-            <p>to the success of such a diverse operation.  Through many years of experience and on the job training, 
+            <p>to the success of such a diverse operation.  Through many years of experience and on the job training,
               FP du Toit Transport Group developed training material and courses that can be offered to other businesses as well.</p>
             <span>+</span>
           </li>
           <li>
             50 years of experience
-            <p>What started out in 1968 as a small Northern Cape family business, 
+            <p>What started out in 1968 as a small Northern Cape family business,
               FP du Toit Transport Group has grown into one of Southern Africa’s major transport and freight companies.</p>
             <span>+</span>
           </li>
