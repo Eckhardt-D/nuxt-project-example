@@ -17,7 +17,7 @@
                           <div class="h-block"><span>CALL US</span>+26461372900</div>
                           <!-- <div class="h-block"><span>EMAIL US</span>info@domain.com</div> -->
                           <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div>
-                          <router-link class="btn btn-success special-home" to="/contact">GET A QUOTE</router-link>
+                          <router-link class="btn btn-success special-home" to="/contact#filter">GET A QUOTE</router-link>
                       </div>
                   </div>
               </div>

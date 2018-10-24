@@ -6,7 +6,7 @@
           <h1>contact us</h1>
         </a>
         <div class="pull-right">
-          <router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/contact">Contact Us</router-link>
+          <router-link to="/"><i class="fa fa-home fa-lg"></i></router-link>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent novalidate id="vacancyForm" class="reply-form form-inline">
     <div class="row form-elem mb-0">
-      <div class="col-sm-6 form-elem">
+      <div class="col-sm-12 form-elem">
         <div class="default-inp form-elem">
           <i class="fa fa-user"></i>
           <input v-model="vacancy.fullname" type="text" name="vacancy_fullname" placeholder="Full Name" required="required">
@@ -13,8 +13,8 @@
         <div class="default-inp form-elem">
           <input v-model="vacancy.position" type="text" name="vacancy_position" placeholder="Position">
         </div>
+        <label for="">Upload a copy of your CV (PDF only)</label>
         <div class="form-elem default-inp">
-          Upload a copy of your CV (PDF only)
           <input @change="uploadFile" type="file" name="vacancy_cv">
         </div>
       </div>
@@ -57,12 +57,12 @@ export default {
       // Make sure file is PDF
       function isNotPDF(self) {self.notPDF = true}
       if(e.target.files[0].type !== 'application/pdf') return isNotPDF(this)
-      
+
       //Check File is not Empty
       if (e.target.files[0]) {
         // Select the very first file from list
         var selectedFile = e.target.files[0]
-        
+
         // FileReader function for read the file.
         var fileReader = new FileReader()
         var base64
