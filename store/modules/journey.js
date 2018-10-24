@@ -1,8 +1,5 @@
-let vista
+import Vue from 'vue'
 
-window.addEventListener('load', () => {
-  vista = $nuxt.$vista
-})
 
 const state = {
   mailStatus: null
@@ -20,7 +17,7 @@ const mutations = {
 
 const actions = {
   sendSanitizedMessage({commit}, payload) {
-    vista.journey.sendMail(
+    Vue.prototype.$vista.journey.sendMail(
       {
         From: 'vistatest@rainmaker.travel',
         FromName: 'VISTA.switch',

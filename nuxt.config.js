@@ -92,6 +92,5 @@ module.exports = {
   },
   generate: {
     fallback: true
-  },
- mode: 'spa',
+  }
 }

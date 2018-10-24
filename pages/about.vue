@@ -146,11 +146,11 @@
       </div>
       <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
         data-min450="2" data-min600="2" data-min768="4">
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/1.png" alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img height="50px" src="media/3-column-info/2.png"
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/1.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/2.png"
               alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/3.png" alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/3-column-info/4.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/3.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/4.png" alt="Img"></a></div>
       </div>
     </div>
   </div>
