@@ -46,7 +46,7 @@
                 <div id="success"></div>
                 <form @submit.prevent novalidate id="contactForm" class="reply-form form-inline">
                   <div class="default-inp form-elem">
-                    <select  type="text" name="department" id="department">
+                    <select class="form_input" v-model="formData.department" type="text" name="department" id="department">
                       <option value="Choose a department">Choose a department</option>
                       <option value="FP du Toit">FP du Toit</option>
                       <option value="Pro Parcel">Pro Parcel</option>
@@ -59,54 +59,58 @@
                     <div class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa fa-user"></i>
-                        <input type="text" name="user-name" id="user-name" placeholder="Full Name" required="required">
+                        <input class="form_input" v-model="formData.firstname" type="text" name="user-name" id="user-name" placeholder="Full Name" required="required">
                       </div>
                       <div class="default-inp form-elem">
                         <i class="fa fa-envelope"></i>
-                        <input type="text" name="user-email" id="user-email" placeholder="Email Address" required="required">
+                        <input class="form_input" type="email" v-model="formData.email" name="user-email" id="user-email" placeholder="Email Address" required="required">
                       </div>
                     </div>
                     <div style="margin-bottom: 15px;" class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa fa-user"></i>
-                        <input type="text" name="user-lastname" id="user-lastname" placeholder="Last Name">
+                        <input class="form_input" v-model="formData.lastname" type="text" name="user-lastname" id="user-lastname" placeholder="Last Name">
                       </div>
                       <div class="default-inp form-elem">
                         <i class="fa fa-phone"></i>
-                        <input type="text" name="user-phone" id="user-phone" placeholder="Phone No.">
+                        <input class="form_input" v-model="formData.phone" type="text" name="user-phone" id="user-phone" placeholder="Phone No.">
                       </div>
                     </div>
                     <div class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa fa-arrows-h"></i>
-                        <input v-model="width" type="text" name="package-width" id="user-lastname" placeholder="Package width (cm)">
+                        <input class="form_input" v-model="formData.width" type="text" name="package-width" id="user-lastname" placeholder="Package width (cm)">
                       </div>
                       <div class="default-inp form-elem">
                         <i class="fa fa-long-arrow-up"></i>
-                        <input v-model="height" type="text" name="package-height" id="user-phone" placeholder="Package height (cm)">
+                        <input class="form_input" v-model="formData.height" type="text" name="package-height" id="user-phone" placeholder="Package height (cm)">
                       </div>
                     </div>
                     <div class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa  fa-long-arrow-right"></i>
-                        <input v-model="length" type="text" name="package-length" id="user-lastname" placeholder="Package length (cm)">
+                        <input class="form_input" v-model="formData.length" type="text" name="package-length" id="user-lastname" placeholder="Package length (cm)">
                       </div>
                       <div class="default-inp form-elem">
                         <i class="fa fa-balance-scale"></i>
-                        <input v-model="volumetric" disabled type="text" name="volumetric_calc" id="user-phone" placeholder="Volumetric Factor">
+                        <input class="form_input" v-model="volumetric" disabled type="text" name="volumetric_calc" id="user-phone" placeholder="Volumetric Factor">
                       </div>
                     </div>
                   </div>
                   <div class="default-inp form-elem">
-                    <input type="text" name="user-subject" id="user-subject" placeholder="Subject">
+                    <input class="form_input" v-model="formData.subject" type="text" name="user-subject" id="user-subject" placeholder="Subject">
                   </div>
                   <div class="form-elem default-inp">
-                    <textarea id="user-message" placeholder="Message"></textarea>
+                    <textarea class="form_input" v-model="formData.message" id="user-message" placeholder="Message"></textarea>
                   </div>
                   <div class="form-elem">
-                    <button type="submit" class="btn btn-success special-home">send message</button>
+                    <button @click="sendSanitizedForm" type="submit" class="btn btn-success special-home">send message</button>
                   </div>
+
                 </form>
+                 <h2 v-if="formError.isError" style="color: red; z-index: 1000">Oops!<span>{{formError.message}}</span></h2>
+                 <h2 v-if="!mailStatus && mailStatus !== null" style="color: red; z-index: 1000">Oops!<span> An error occurred, please try later.</span></h2>
+                 <h2 v-if="mailStatus" style="color: green; z-index: 1000">Thank You!<span> We'll get back to you shortly.</span></h2>
               </div>
             </div>
           </div>
@@ -116,11 +120,26 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
+
   export default {
     data: () => ({
-      length: '',
-      width: '',
-      height: '',
+      formData: {
+        department: "",
+        firstname: "",
+        lastname: "",
+        email: "",
+        phone: "",
+        length: "",
+        width: "",
+        height: "",
+        subject: "",
+        message: ""
+      },
+      formError: {
+        isError: false,
+        message: ""
+      },
       contactDetails: [{
           mainTitle: 'Windhoek',
           depotTitle: 'Windhoek',
@@ -175,13 +194,55 @@
     }),
     computed: {
       volumetric() {
-      if ((this.height * this.width * this.length) / 5000 !== 0) return (this.height * this.width * this.length) / 5000;
-      }
+        if ((this.formData.height * this.formData.width * this.formData.length) / 5000 !== 0) return (this.formData.height * this.formData.width * this.formData.length) / 5000;
+      },
+      ...mapGetters([
+        'mailStatus'
+      ])
     },
     mounted() {
       setTimeout(() => {
         $('[data-filter=".windhoek"]').click()
       }, 1000)
+    },
+    methods: {
+      sendSanitizedForm() {
+        this.formError.isError = false
+
+        if(this.isEmpty())
+        {
+          this.formError.isError = true
+          this.formError.message = ` Please fill in all the fields.`
+          return
+        } else if(this.formData.email && !this.formData.email.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/))
+        {
+          this.formError.isError = true
+          this.formError.message = ` Please enter a valid email address.`
+        } else if(!this.formData.phone.match(/^\+\d{1,15}$/))
+        {
+          this.formError.isError = true
+          this.formError.message = ` Please enter a valid cellphone number.`
+        } else {
+          let cleanData = this.formData
+          cleanData.volumetric = this.volumetric
+
+          this.$store.dispatch('sendSanitizedMessage', cleanData)
+        }
+      },
+      isEmpty() {
+        const formObjectKeys = Object.keys(this.formData)
+        let check = false
+
+
+        formObjectKeys.forEach(key => {
+          let input = this.formData[key]
+          if(input === '') {
+            check = true
+          }
+        })
+
+        return check
+      }
     }
   }
 

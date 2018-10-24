@@ -27,8 +27,6 @@
   <p>    Namibia Citizenship </p>
   <p> </p>
   <p> </p>
-  <p> </p>
-  <p><a href="/index.php?id=37" rel="alternate">Apply Here...</a></p>
   <TheVacancyForm/>
   </div>
 </template>

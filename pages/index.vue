@@ -93,42 +93,42 @@
       </div>
       <div class="row our-services">
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
-          <router-link style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image.png')" class="service-bg" to="/services">
+          <router-link style=" background: url('/media/images/image.png')" class="service-bg" to="/services">
             <span><i class="glyph-icon flaticon-boats4"></i></span>
             <h4 style="color: white;">CLIENT SHIPMENTS</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
-          <router-link class="service-bg" style="background: url('/media/images/image (1).png');background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; " to="/services">
+          <router-link class="service-bg" style="background: url('/media/images/image (1).png');" to="/services">
             <span><i class="glyph-icon flaticon-flying"></i></span>
             <h4 style="color: white;">AIR EXPRESS</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
-          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (2).png')" to="/services">
+          <router-link class="service-bg" style="background: url('/media/images/image (2).png')" to="/services">
             <span><i class="glyph-icon flaticon-garage1"></i></span>
             <h4 style="color: white;">CROSS-BORDER</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
-          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (3).png')" to="/services">
+          <router-link class="service-bg" style="background: url('/media/images/image (3).png')" to="/services">
             <span><i class="glyph-icon flaticon-package7"></i></span>
             <h4 style="color: white;">MATERIAL HANDLING</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
-          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (4).png')" to="/services">
+          <router-link class="service-bg" style="background: url('/media/images/image (4).png')" to="/services">
             <span><i class="glyph-icon flaticon-railway1"></i></span>
             <h4 style="color: white;">CRANE HIRE</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
-          <router-link class="service-bg" style="background-position: center!important;background-size: cover!important; background-repeat: no-repeat!important; background: url('/media/images/image (5).png')" to="/services">
+          <router-link class="service-bg" style="background: url('/media/images/image (5).png')" to="/services">
             <span><i class="glyph-icon flaticon-traffic-signal"></i></span>
             <h4 style="color: white;">OPERATOR TRAINING</h4>
             <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
@@ -292,5 +292,9 @@ export default {
 </script>
 
 <style>
-
+  .our-services div > a {
+    background-position: center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+  }
 </style>
