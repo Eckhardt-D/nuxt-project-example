@@ -68,9 +68,9 @@ module.exports = {
   ],
   vista: {
     credentials: {
-      vistaId: "5cee1176-348d-4cf3-8417-ed031ea25d4e",
-      secretKey: "d1DlWSQwzBGlezTy4rQSL9QpplI47iIU",
-      journeyKey: "af64-cf7b-a40b-05db-bff2-2452-4741-e1c4"
+      vistaId: 'b30df856-4136-4ebb-9801-9d6e2c16f3fe',
+      secretKey: '7SwUs0OProaH5JaeZ04WbFYWJQuj2BLrJ',
+      journeyKey: 'f507-81df-facb-c94c-19d2-3f2f-e8ef-6b48'
     }
   },
   /*

@@ -17,40 +17,32 @@ const mutations = {
 
 const actions = {
   sendSanitizedMessage({commit}, payload) {
-    Vue.prototype.$vista.journey.sendMail(
-      {
-        From: 'vistatest@rainmaker.travel',
-        FromName: 'VISTA.switch',
-        ReplyTo: 'vistatest@rainmaker.travel',
-        ReplyToName: 'VISTA.switch',
-        To: 'eckhardt.dreyer@gmail.com',
-        ToName: 'Eckhardt',
-        Subject: payload.subject,
-        TextBody: 'This is a test',
-        HTMLBody: `<h1>Enquiry to: ${payload.department}</h1>
-                    <p>Name: ${payload.firstname}</p>
-                    <p>Last Name: ${payload.lastname}</p>
-                    <p>Email: ${payload.email}</p>
-                    <p>Phone: ${payload.phone}</p>
-                    <p>Package Length: ${payload.length}</p>
-                    <p>Package Width: ${payload.width}</p>
-                    <p>Package Height: ${payload.height}</p>
-                    <p>Volumetric Calculation: ${payload.volumetric}</p>
-                    <p>Subject: ${payload.subject}</p>
-                    <p>Message: ${payload.message}</p>
-                    <br>`
-      }
-    ).then(
-      res => {
-        if(res) {
-          commit('CHANGE_MAIL_STATUS', true)
-        }
-      }
-    ).catch(
-      error => {
-        commit('CHANGE_MAIL_STATUS', false)
-      }
-    );
+    Vue.prototype.$vista.journey
+    .sendTemplateMail({
+      from: 'VISTA.journey <journey@rainmaker.travel>',
+      to: ['"Eckhardt Dreyer" <eckhardt@rainmaker.travel>', '"Stephen Lombard" <stephen@rainmaker.travel>', '"Thomas Muller" <thomas@rainmaker.travel>'],
+      subject: payload.subject,
+      templateId: 'feebb6da-0eb6-47ed-b7e0-10764c3aa256',
+      templateEngine: [
+        {key:"first_name",value: payload.firstname},
+        {key:"last_name",value: payload.lastname},
+        {key:"user_email",value: payload.email},
+        {key:"user_phone",value: payload.phone},
+        {key:"message",value: payload.message},
+        {key:"pack_width",value: payload.width},
+        {key:"pack_height",value: payload.height},
+        {key:"pack_length",value: payload.length},
+        {key:"volumetric",value: payload.volumetric.toString()},
+        {key:"department",value: payload.department}
+      ],
+      attachments: []
+    })
+    .then(res => {
+      commit('CHANGE_MAIL_STATUS', true)
+    })
+    .catch(error => {
+      commit('CHANGE_MAIL_STATUS', false)
+    })
   }
 }
 
