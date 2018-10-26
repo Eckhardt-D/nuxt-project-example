@@ -16,15 +16,15 @@
       </div>
     <div class="art-article">
       <div class="adress-details">
-        <div style="margin: 10px auto;">
+        <div class="vac-list"  style="margin: 10px auto;">
           <span><i class="fa fa-send"></i></span>
           <div><strong><router-link style="color: #333;" to="/assistant-accountant">ASSISTANT ACCOUNTANT Windhoek - CLOSINGDATE: 22 October 2018</router-link></strong><br></div>
         </div>
-        <div style="margin: 10px auto;">
+        <div class="vac-list" style="margin: 10px auto;">
           <span><i class="fa fa-send"></i></span>
           <div><strong><router-link style="color: #333;" to="/messenger">MESSENGER Windhoek - CLOSINGDATE: 19 October 2018 </router-link></strong><br></div>
         </div>
-        <div style="margin: 10px auto;">
+        <div class="vac-list" style="margin: 10px auto;">
           <span><i class="fa fa-send"></i></span>
           <div><strong><router-link style="color: #333;" to="/freight-controller">Freight Controller Jet.X Couriers CLOSINGDATE: 17 October 2018</router-link></strong><br></div>
         </div>
@@ -39,4 +39,8 @@
   </script>
 
   <style>
+  .vac-list {
+    min-width: 50vw;
+    max-width: 455px;
+  }
   </style>
