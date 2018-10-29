@@ -69,10 +69,12 @@
                         <i class="fa fa-user"></i>
                         <input class="form_input" v-model="formData.lastname" type="text" name="user-lastname" id="user-lastname" placeholder="Last Name">
                       </div>
+                        
                       <div class="default-inp form-elem">
                         <i class="fa fa-phone"></i>
                         <input class="form_input" v-model="formData.phone" type="text" name="user-phone" id="user-phone" placeholder="Phone No.">
                       </div>
+                      <p class="input-elem-hint">Please format your number as E.164 eg. <samp>+264812345678</samp></p>
                     </div>
                     <div class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
@@ -217,7 +219,7 @@ import {mapGetters} from 'vuex'
           this.formError.isError = true
           this.formError.message = ` Please enter a valid email address.`
           return
-        } else if(!this.formData.phone.match(/^\+\d{10,15}$/))
+        } else if(!this.formData.phone.match(/^\+[1-9]\d{1,14}$/))
         {
           this.formError.isError = true
           this.formError.message = ` Please enter a valid cellphone number.`
@@ -268,5 +270,17 @@ import {mapGetters} from 'vuex'
     height: 50px;
     padding: 0 24px;
     cursor: pointer;
+  }
+  .input-elem-hint {
+    font-size: 0.75em;
+    margin-bottom: 0;
+  }
+
+  .input-elem-hint > samp {
+    background: #f4f4f4;
+    color: grey;
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
   }
 </style>
