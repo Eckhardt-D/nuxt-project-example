@@ -352,10 +352,10 @@
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/1.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/4.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/3.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="245px" src="media/3-column-info/2.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/1.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/4.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/3.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/2.png" alt="Img"></router-link></div>
     </div>
   </div>
 </div>

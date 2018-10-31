@@ -8,11 +8,11 @@
           <a href="#" class="logo-footer"></a>
           <p>FP du Toit Transport Group: Home-Grown Quality and Services.</p>
           <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/fpdutoittransport/"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <!-- <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
             <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
             <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-vimeo-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-vimeo-square fa-2x"></i></a> -->
           </div>
           <router-link to="/contact" class="btn btn-lg btn-danger">GET A FREE QUOTE</router-link>
         </div>
