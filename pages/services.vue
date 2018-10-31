@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-image page-title">
+    <div style="background-image: none!important" class="page-title">
       <div class="container-fluid">
         <a href="#">
           <h1>OUR SERVICES</h1>
@@ -9,9 +9,9 @@
           <img v-if="selectedService === 'JET.X COURIERS'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/2.png" alt="">
           <img v-if="selectedService === 'WESBANK TRANSPORT'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/4.png" alt="">
         </a>
-        <div class="pull-right">
-          <a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/services">Our
-            services</a> 
+        <div style="color: #333!important" class="pull-right">
+          <router-link style="color: #333!important" to="/"><i style="color: #333!important" class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link style="color: #333!important" to="/services">Our
+            services</router-link> 
         </div>
       </div>
     </div>
@@ -100,63 +100,63 @@
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CONTAINER TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>MATERIAL HANDLING</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CHEMICAL LOGISTICS</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>NATIONAL & SADC TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>WAREHOUSING</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CARGO HANDLING & CRANE HIRE</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>OPERATOR TRAINING</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices wesbank">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>ABNORMAL LOADS</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/wesbank-detail">READ MORE</router-link>
           </div>
 
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>LINE HAUL CROSS BORDER</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/fp-du-toit-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>INTER-CITY LINE HAUL RSA</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/fp-du-toit-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>CENTRAL AFRICA TRANSPORT DIVISION</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/fp-du-toit-detail">READ MORE</router-link>
           </div>
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices fpdutoit">
             <!-- <img class="full-width" src="media/3-column-info/6.jpg" alt="Img"> -->
             <h4>REFRIGERATED TRANSPORT</h4>
-            <!-- <router-link class="btn btn-success special-services" to="/services">READ MORE</router-link> -->
+            <router-link class="btn btn-success special-services" to="/fp-du-toit-detail">READ MORE</router-link>
           </div>
 
         </div>

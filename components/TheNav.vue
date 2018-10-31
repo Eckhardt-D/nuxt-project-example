@@ -14,9 +14,9 @@
                   </div>
                   <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
                       <div class="text-right header-padding">
-                          <div class="h-block"><span>CALL US</span>+26461372900</div>
+                          <div class="h-block"><span>CALL US</span>+264-61-372 9000<br>+264-61-294 5000</div>
                           <!-- <div class="h-block"><span>EMAIL US</span>info@domain.com</div> -->
-                          <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div>
+                          <!-- <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div> -->
                           <router-link class="btn btn-success special-home" to="/contact#filter">GET A QUOTE</router-link>
                       </div>
                   </div>

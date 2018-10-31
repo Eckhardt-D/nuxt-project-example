@@ -15,11 +15,11 @@
     <div class="container-fluid inner-offset">
       <div class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
         <h2>FOR ALL YOUR TRANSPORT NEEDS</h2>
-        <h1>FP DU TOIT - THE RIGHT CHOICE</h1>
+        <h1>THE RIGHT CHOICE</h1>
       </div>
       <ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
         <li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
-        <li><a href="#tab2" data-toggle="tab">OUR MISSION</a></li>
+        <li><a href="#tab2" data-toggle="tab">OUR VISION</a></li>
         <li><a href="#tab3" data-toggle="tab">OUR STRATEGY</a></li>
         <li><a href="#tab4" data-toggle="tab">MANAGEMENT</a></li>
       </ul>
@@ -28,7 +28,7 @@
         <div class="tab-pane active" id="tab1">
           <div class="row">
             <div class="col-sm-5">
-              <img class="full-width" src="media/fleet-gallery/3.jpg" alt="Img">
+              <img class="full-width" src="media/blog/3.jpg" alt="Img">
             </div>
             <div class="col-sm-7">
               <p><strong style="font-size:16px;">What started out in 1968 as a small Northern Cape family business, FP
@@ -45,17 +45,17 @@
         </div>
         <div class="tab-pane" id="tab2">
           <div class="row">
-            <div class="col-sm-5">
-              <img class="full-width" src="media/images/2.png" alt="Img">
+            <div style="text-align: center;" class="col-sm-12 mx-auto">
+              <img width="80%" src="media/images/vision.png" alt="Img">
             </div>
-            <div class="col-sm-7 text-block">
+            <!-- <div class="col-sm-7 text-block">
               <p><strong>OUR VISION</strong></p>
               <p>A world class service provider of specialised logistics and transport solutions to selected customers,
                 focused on rendering exceptional client service, generating fair returns for its shareholders and
                 providing rewarding careers to its employees.
               </p>
               <u>We will achieve this by conducting our business in accordancewith our values.</u>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="tab-pane" id="tab3">
@@ -75,7 +75,6 @@
                 efficient. An example would be: Import documents are flown from South Africa to
                 Windhoek in order to arrive prior to the transporting vehicle, to expedite the framing on the Namibian
                 Customs software, Asycuda.</p>
-              <u>Aliquam malesuada mauris urk metus lorem ipsum dolor sit amet consectetur adipisicing</u>
             </div>
           </div>
         </div>

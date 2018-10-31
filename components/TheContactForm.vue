@@ -5,7 +5,7 @@
           <div v-if="office.class === selectedPlace" v-for="(office, index) in contactDetails" :class="office.class" class="container-fluid block-content isotope-item" :key="index">
             <div class="row main-grid">
               <div class="col-sm-4">
-                <h4>{{office.mainTitle}} Head Office</h4>
+                <h4 v-if="office.mainTitle">{{office.mainTitle}} <span v-if="office.mainTitle === 'Windhoek'">Head</span> Office</h4>
                 <p>Everyday is a new day for us and we work really hard to
                   satisfy our customers everywhere.</p>
                 <div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">

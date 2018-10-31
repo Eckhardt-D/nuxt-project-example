@@ -18,7 +18,7 @@
           </div>
           <p>What started out in 1968 as a small Northern Cape family business,
             FP du Toit Transport Group has grown into one of Southern Africa’s
-            major transport and freight companies.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+            major transport and logistics companies.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
     </div>
@@ -32,7 +32,61 @@
               <a class="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <div style="display:table-cell;">
-              <h1 class="text-uppercase">Quality, reliability, service and relationships</h1>
+              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
+            </div>
+          </div>
+          <p>These are the passions behind the huge success and exceptional track
+            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img class="lazy" src="media/main-slider/3.jpg" alt="slider">
+      <div class="container-fluid">
+        <div class="slider-content col-md-6 col-lg-6">
+          <div style="display:table;">
+            <div style="display:table-cell; width:100px; vertical-align:top;">
+              <a class="prev"><i class="fa fa-angle-left"></i></a>
+              <a class="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <div style="display:table-cell;">
+              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
+            </div>
+          </div>
+          <p>These are the passions behind the huge success and exceptional track
+            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img class="lazy" src="media/main-slider/4.jpg" alt="slider">
+      <div class="container-fluid">
+        <div class="slider-content col-md-6 col-lg-6">
+          <div style="display:table;">
+            <div style="display:table-cell; width:100px; vertical-align:top;">
+              <a class="prev"><i class="fa fa-angle-left"></i></a>
+              <a class="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <div style="display:table-cell;">
+              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
+            </div>
+          </div>
+          <p>These are the passions behind the huge success and exceptional track
+            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img class="lazy" src="media/main-slider/5.jpg" alt="slider">
+      <div class="container-fluid">
+        <div class="slider-content col-md-6 col-lg-6">
+          <div style="display:table;">
+            <div style="display:table-cell; width:100px; vertical-align:top;">
+              <a class="prev"><i class="fa fa-angle-left"></i></a>
+              <a class="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <div style="display:table-cell;">
+              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
             </div>
           </div>
           <p>These are the passions behind the huge success and exceptional track
@@ -44,33 +98,56 @@
   <!-- The Service Blocks -->
   <div class="container-fluid">
       <div class="row column-info block-content">
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
+        <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/1.png" alt="slider">
-          <h3>FP du Toit</h3>
-          <p style="min-height: 160px;">A transport group that is made up of a number of business units, with their own
-            focus markets and transport service offerings.
+          <!-- <h3>FP du Toit</h3> -->
+          <p class="departments">This business unit provides the line haul service of
+            full truck loads from South Africa (Durban,
+            Johannesburg and Cape Town) as well as from the
+            Windhoek HQ throughout the whole SADC region.
+            Routes extend to the SDRC and even Dar es
+            Salaam in Tanzania.
           </p>
           <button @click="$store.dispatch('changeService', 'FP DU TOIT')" class="btn btn-success special-home">READ MORE</button>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
+        <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/3.png" alt="Img">
-          <h3>Pro Parcel Distribution</h3>
-          <p style="min-height: 160px;">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997.
-            Pro Parcel is the division that handles part-loads, heavy boxes and pallets that are not time sensitive, but price sensitive.</p>
+          <!-- <h3>Pro Parcel Distribution</h3> -->
+          <p class="departments">A distribution service able to deliver to all
+            Namibian destinations with the highest
+            frequency of deliveries in Namibia. The
+            operation is focused on pallet, secured bins and
+            carton volumes in Namibia. Pro Parcel can offer
+            the best service levels in terms of frequency of
+            delivery to all final destination in Namibia. The
+            network utilizes our strategically placed depot
+            infrastructure across Namibia.</p>
           <button @click="$store.dispatch('changeService', 'PRO PARCEL')" class="btn btn-success special-home">READ MORE</button>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
+        <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/2.png" alt="Img">
-          <h3>JET.X Couriers</h3>
-          <p style="min-height: 160px;">JET.X Couriers was acquired by FP du Toit Transport in 2005. The company known then as JET.X Couriers t/a Saturn
-            Services began with only a Windhoek depot, expanding in 2012 drastically to the largest privately owned courier network in Namibia.</p>
+          <!-- <h3>JET.X Couriers</h3> -->
+          <p class="departments">Jet.X Couriers was acquired by FP du Toit
+            Transport in 2005.
+            In 2012 Jet.X Couriers expanded its network
+            and today it services all major town in
+            Namibia every day and the smaller towns at
+            least twice a week.
+            Thus, making it the largest privately-owned
+            courier network in Namibia.</p>
           <button @click="$store.dispatch('changeService', 'JET.X COURIERS')" class="btn btn-success special-home">READ MORE</button>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
+        <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/4.png" alt="Img">
-          <h3>Wesbank Transport</h3>
-          <p style="min-height: 160px;">Wesbank Transport provides comprehensive transportation solutions to clients accross southern Africa,
-            including customized consolidation, distribution, logistics and storage services.</p>
+          <!-- <h3>Wesbank Transport</h3> -->
+          <p class="departments">FP du Toit in 2015<br>
+            Wesbank Transport was bought by FP du
+            Toit Transport in 2015.
+            Wesbank Transport provides comprehensive
+            transportation solutions to clients across
+            southern Africa, including customized
+            consolidation, distribution, logistics and
+            storage services.</p>
           <button @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')" class="btn btn-success special-home">READ MORE</button>
         </div>
       </div>
@@ -87,9 +164,10 @@
 
     <div class="container-fluid block-content">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-        <h1>OUR SERVICES</h1>
+        <!-- <h1>OUR SERVICES</h1> -->
         <img style="margin: 1em 0;" class="lazy" width="28%" src="media/images/3.png" alt="FP Du Toit">
-        <h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
+        <h2>We have a wide network of offices in all major locations to complement our service
+          offering.</h2>  
       </div>
       <div class="row our-services">
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
@@ -296,5 +374,25 @@ export default {
     background-position: center!important;
     background-size: cover!important;
     background-repeat: no-repeat!important;
+  }
+
+  .departments {
+    min-height: 270px;
+    margin-top: 1.2em;
+  }
+  @media screen and (max-width: 1200px) {
+    .departments {
+      min-height: 320px;
+    }
+  }
+  @media screen and (max-width: 993px) {
+    .departments {
+      min-height: 165px;
+    }
+  }
+   @media screen and (max-width: 768px) {
+    .departments {
+      min-height: auto;
+    }
   }
 </style>

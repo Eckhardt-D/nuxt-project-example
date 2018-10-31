@@ -15,18 +15,28 @@
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">Part of the FP du Toit Transport Group</h1>
 						<img width=300px src="media/3-column-info/3.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
 						<div class="row">                    	
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
-								<img height="369px" src="media/images/cross-border.jpg" class="full-width" alt="Img">
-								<h4>Cross Border</h4>
-								<p>Courier freight is received in Windhoek from CapeTown and Johannesburg Monday to Saturday using multiple departures.  
-                  The cross border route from Johannesburg is serviced with a minimum of 3 vehicles; but regularly 5 vehicles are operated daily.  
-                  This includes a 36 ton SpeedLink Taut-liner with 2 driver; driving non-stop to Windhoek; a 12 ton vehicle with the flexibility to attach a trailer;
-                   a 8 ton vehicle and 1 or even 2 small express vehicles who can leave from 19:00 to arrive the next day, late morning.  
-                   With the added advantage of having Namibian customs officers on our premises; we save time by not waiting in queues at border crossings.  
-                   In order to achieve better efficiencies, custom documents are flown to Windhoek from Cape Town and Johannesburg to arrive before the vehicle. 
-                   The processing of the importation of the goods can be started before the vehicle’s arrival.</p>
+							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
+								<img height="369px" src="media/main-slider/4.jpg" alt="Img">
+								<!-- <h4>Cross Border</h4> -->
+								<p>Wesbank Transport is a signatory to the International Cyanide Management Code for the transport of
+									cyanide and it is the only Namibian Certified Transport Company who may transport cyanide. It is also
+									the only transporter in Namibia who can transport Class 7 Uranium products.<br><br>
+									With a management team on 24 hr standby, 365 days a year for safety, security and emergencies
+									makes this the transporter which you can always rely on.<br><br>
+									The long-haul division of Wesbank in collaboration with his big brother FP du Toit Transport offers
+									Cross Border Transport, National Transport, Bonded Carriers and Emergency Loads.<br><br>
+									The short-haul division offers support in container transport and logistics as well as warehousing.<br><br>
+									Chemical Logistics is your solution to the transport of all your dangerous goods, providing Sulphuric
+									Acid, cyanide and taintainers with dedicated contract managers.<br><br>
+									Wesbank transports’ main field of operations are in the mining industry, where they proudly hold
+									transportation contracts with all the operating uranium mines in the Erongo region. This making it
+									possible for it to offer the material handling service not only to the mines but to the private and public
+									sector. With mobile cranes ranging from 15 to 220 tons, forklifts, abnormal transport low beds up to
+									100 tons and reach stackers.<br><br>
+									Wesbank Transport also provides a clearing and forwarding service out of the Walvis Bay harbor.
+									Making this service provider your preferred solution from point A to Z.</p>
 							</div>
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
+							<!-- <div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
 								<img src="media/images/domestic.png" class="full-width" alt="Img">
 								<h4>Domestic</h4>
 								<p>JET.X Couriers offer daily (Monday to Friday) deliveries to all Namibian destinations and dedicated pharmaceutical deliveries on Saturdays. 
@@ -34,7 +44,7 @@
                    Therefor we never run out of capacity.  We pride ourselves in keeping our customers’ needs close to the heart of our business.  
                    From Windhoek to other Namibian destinations we deliver overnight / the next day. Inter-town courier services require in most cases takes two days, 
                   since the consignments are first consolidated at the main Windhoek hub; before being dispatched the evening to the final destination.</p>
-							</div>
+							</div> -->
 						</div>
 						<p class="text-center">
 							<router-link to="/contact" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">request a quote</router-link>
