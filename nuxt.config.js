@@ -17,7 +17,6 @@ module.exports = {
     { src: '/plugins/js/jquery-ui.min.js', body: true },
     { src: '/js/jquery.lazy.min.js', body: true },
     { src: '/plugins/js/modernizr.custom.js', body: true },
-    { src: '/plugins/easypiechart/jquery.easypiechart.min.js', body: true},
     { src: '/plugins/js/waypoints.min.js', body: true},
     { src: '/plugins/js/jquery.easypiechart.min.js', body: true},
     { src: '/plugins/js/classie.js', body: true },

@@ -1,6 +1,5 @@
 <template>
  <div>
-  <!-- Main Slider -->
   <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false"
     data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
     <div class="item">
@@ -95,12 +94,10 @@
       </div>
     </div>
   </div>
-  <!-- The Service Blocks -->
   <div class="container-fluid">
       <div class="row column-info block-content">
         <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/1.png" alt="slider">
-          <!-- <h3>FP du Toit</h3> -->
           <p class="departments">This business unit provides the line haul service of
             full truck loads from South Africa (Durban,
             Johannesburg and Cape Town) as well as from the
@@ -112,7 +109,6 @@
         </div>
         <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/3.png" alt="Img">
-          <!-- <h3>Pro Parcel Distribution</h3> -->
           <p class="departments">A distribution service able to deliver to all
             Namibian destinations with the highest
             frequency of deliveries in Namibia. The
@@ -126,7 +122,6 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/2.png" alt="Img">
-          <!-- <h3>JET.X Couriers</h3> -->
           <p class="departments">Jet.X Couriers was acquired by FP du Toit
             Transport in 2005.
             In 2012 Jet.X Couriers expanded its network
@@ -139,7 +134,6 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
           <img class="lazy" src="media/3-column-info/4.png" alt="Img">
-          <!-- <h3>Wesbank Transport</h3> -->
           <p class="departments">FP du Toit in 2015<br>
             Wesbank Transport was bought by FP du
             Toit Transport in 2015.
@@ -164,7 +158,6 @@
 
     <div class="container-fluid block-content">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-        <!-- <h1>OUR SERVICES</h1> -->
         <img style="margin: 1em 0;" class="lazy" width="28%" src="media/images/3.png" alt="FP Du Toit">
         <h2>We have a wide network of offices in all major locations to complement our service
           offering.</h2>  
@@ -174,47 +167,40 @@
           <router-link style=" background: url('/media/images/image.png')" class="service-bg" to="/services">
             <span><i class="glyph-icon flaticon-boats4"></i></span>
             <h4 style="color: white;">CLIENT SHIPMENTS</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
           <router-link class="service-bg" style="background: url('/media/images/image (1).png');" to="/services">
             <span><i class="glyph-icon flaticon-flying"></i></span>
             <h4 style="color: white;">AIR EXPRESS</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
           <router-link class="service-bg" style="background: url('/media/images/image (2).png')" to="/services">
             <span><i class="glyph-icon flaticon-garage1"></i></span>
             <h4 style="color: white;">CROSS-BORDER</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInLeft" data-wow-delay="0.3s">
           <router-link class="service-bg" style="background: url('/media/images/image (3).png')" to="/services">
             <span><i class="glyph-icon flaticon-package7"></i></span>
             <h4 style="color: white;">MATERIAL HANDLING</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInUp" data-wow-delay="0.3s">
           <router-link class="service-bg" style="background: url('/media/images/image (4).png')" to="/services">
             <span><i class="glyph-icon flaticon-railway1"></i></span>
             <h4 style="color: white;">CRANE HIRE</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4 service-bg wow zoomInRight" data-wow-delay="0.3s">
           <router-link class="service-bg" style="background: url('/media/images/image (5).png')" to="/services">
             <span><i class="glyph-icon flaticon-traffic-signal"></i></span>
             <h4 style="color: white;">OPERATOR TRAINING</h4>
-            <!-- <p>Integer congue elit non semper laore lectus orci posuer nisl tempor lacus mauris led ipsum.</p> -->
           </router-link>
         </div>
       </div>
     </div>
-    <!-- Fleet Gallery -->
     <div class="fleet-gallery block-content bg-image inner-offset">
     <div class="container-fluid inner-offset">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
@@ -232,13 +218,11 @@
       </div>
     </div>
   </div>
-  <!-- Client Block -->
    <div class="container-fluid block-content">
     <div class="row">
       <div class="col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
         <div class="hgroup">
           <h1>OUR VISION</h1>
-          <!-- <h2>Lorem ipsum dolor sit amet consectetur</h2> -->
         </div>
         <div id="testimonials" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false"
           data-navigation="true" data-auto-play="true">
@@ -286,7 +270,6 @@
       <div class="col-md-6 col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
         <div class="hgroup">
           <h1>WHY CHOOSE US</h1>
-          <!-- <h2>Lorem ipsum dolor sit amet consectetur</h2> -->
         </div>
         <ul class="why-us">
           <li>
@@ -315,7 +298,6 @@
       </div>
     </div>
   </div>
-  <!-- Counter Animation -->
   <div class="container-fluid block-content percent-blocks" data-waypoint-scroll="true">
     <div class="row stats">
       <div class="col-sm-6 col-md-3 col-lg-3">
@@ -344,11 +326,9 @@
       </div>
     </div>
   </div>
-  <!-- Partners -->
     <div class="container-fluid partners block-content">
     <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
       <h1>OUR Group</h1>
-      <!-- <h2></h2> -->
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">

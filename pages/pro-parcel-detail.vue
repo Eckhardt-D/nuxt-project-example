@@ -34,10 +34,6 @@
 								cannot be seen through and is made of hard durable plastic. This plastic enables us to stack the bins, thus
 								maximizing the space used and nearly eliminating the risk of damage to the client’s freight.</p>
 							</div>
-							<!-- <div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s"> -->
-								<!-- <img src="media/images/ProParcel-Delivery.png" class="" alt="Img"> -->
-								
-							<!-- </div> -->
 						</div>
 						<p class="text-center">
 							<router-link to="/contact" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">request a quote</router-link>

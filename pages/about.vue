@@ -48,14 +48,6 @@
             <div style="text-align: center;" class="col-sm-12 mx-auto">
               <img width="80%" src="media/images/vision.png" alt="Img">
             </div>
-            <!-- <div class="col-sm-7 text-block">
-              <p><strong>OUR VISION</strong></p>
-              <p>A world class service provider of specialised logistics and transport solutions to selected customers,
-                focused on rendering exceptional client service, generating fair returns for its shareholders and
-                providing rewarding careers to its employees.
-              </p>
-              <u>We will achieve this by conducting our business in accordancewith our values.</u>
-            </div> -->
           </div>
         </div>
         <div class="tab-pane" id="tab3">
@@ -141,7 +133,6 @@
     <div class="container-fluid partners block-content">
       <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
         <h1>OUR Group</h1>
-        <!-- <h2></h2> -->
       </div>
       <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
         data-min450="2" data-min600="2" data-min768="4">

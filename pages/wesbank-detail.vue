@@ -36,15 +36,6 @@
 									Wesbank Transport also provides a clearing and forwarding service out of the Walvis Bay harbor.
 									Making this service provider your preferred solution from point A to Z.</p>
 							</div>
-							<!-- <div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
-								<img src="media/images/domestic.png" class="full-width" alt="Img">
-								<h4>Domestic</h4>
-								<p>JET.X Couriers offer daily (Monday to Friday) deliveries to all Namibian destinations and dedicated pharmaceutical deliveries on Saturdays. 
-                  Because our courier and parcel distribution networks have similar footprints, we have the flexibility to utilise the large vehicles of our Pro Parcel service. 
-                   Therefor we never run out of capacity.  We pride ourselves in keeping our customers’ needs close to the heart of our business.  
-                   From Windhoek to other Namibian destinations we deliver overnight / the next day. Inter-town courier services require in most cases takes two days, 
-                  since the consignments are first consolidated at the main Windhoek hub; before being dispatched the evening to the final destination.</p>
-							</div> -->
 						</div>
 						<p class="text-center">
 							<router-link to="/contact" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">request a quote</router-link>
