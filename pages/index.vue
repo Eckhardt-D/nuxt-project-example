@@ -352,10 +352,10 @@
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/1.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/4.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/3.png" alt="Img"></router-link></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><router-link to="/services"><img class="lazy" width="100%" src="media/3-column-info/2.png" alt="Img"></router-link></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'FP DU TOIT')"><img class="lazy" width="100%" src="media/3-column-info/1.png" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'PRO PARCEL')"><img class="lazy" width="100%" src="media/3-column-info/3.png" alt="Img"></a></div>            
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'JET.X COURIERS')"><img class="lazy" width="100%" src="media/3-column-info/2.png" alt="Img"></a></div>            
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')"><img class="lazy" width="100%" src="media/3-column-info/4.png" alt="Img"></a></div>      
     </div>
   </div>
 </div>
@@ -379,6 +379,9 @@ export default {
   .departments {
     min-height: 270px;
     margin-top: 1.2em;
+  }
+  #partners a {
+    cursor: pointer;
   }
   @media screen and (max-width: 1200px) {
     .departments {
