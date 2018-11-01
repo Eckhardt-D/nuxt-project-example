@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="background-image: none!important" class="page-title">
+    <div class="page-title bg-image">
       <div class="container-fluid">
         <a href="#">
           <h1>OUR SERVICES</h1>
@@ -9,8 +9,8 @@
           <img v-if="selectedService === 'JET.X COURIERS'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/2.png" alt="">
           <img v-if="selectedService === 'WESBANK TRANSPORT'" style="margin-top: -15px; margin-left: 40px;" height="50px" src="media/3-column-info/4.png" alt="">
         </a>
-        <div style="color: #333!important" class="pull-right">
-          <router-link style="color: #333!important" to="/"><i style="color: #333!important" class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link style="color: #333!important" to="/services">Our
+        <div class="pull-right">
+          <router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/services">Our
             services</router-link> 
         </div>
       </div>

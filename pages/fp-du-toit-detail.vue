@@ -13,7 +13,7 @@
 				<div class="row">
 					<div class="col-sm-12 main-content text-center">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">Part of the FP du Toit Transport Group</h1>
-						<img width=300px src="media/3-column-info/4.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img width=300px src="media/3-column-info/1.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
 						<div class="row">                    	
 							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
 								<img height="369px" src="media/main-slider/5.jpg" alt="Img">

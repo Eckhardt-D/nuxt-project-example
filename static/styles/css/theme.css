@@ -122,7 +122,7 @@ hgroup h2 + h1, hgroup h1 + h2{
 	background-image:url(../../media/3-column-info/1.png);
 	background-size: cover;
 	width:244px;
-	height:42px;
+	height:55px;
 	background-repeat:no-repeat;
 	cursor:pointer;
 	display:inline-block;
