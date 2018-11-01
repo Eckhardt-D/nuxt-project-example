@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
+    <div style="margin-top: 1.5em;" class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
       <h2>Welcome to our download section.</h2>
       <h1>Please download the applicable files for your requirements.</h1>
     </div>

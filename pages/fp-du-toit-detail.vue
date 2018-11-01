@@ -2,9 +2,9 @@
 <div>
   <div class="bg-image page-title">
 				<div class="container-fluid">
-					<router-link to="/jetx-detail"><h1>JET.X COURIERS</h1></router-link>
+					<router-link to="/fp-du-toit-detail"><h1>FP du Toit</h1></router-link>
 					<div class="pull-right">
-						<router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/services">Our services</router-link>&nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/jetx-detail">Jet.x</router-link>
+						<router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/services">Our services</router-link>&nbsp;&nbsp;
 					</div>
 				</div>
 			</div>
