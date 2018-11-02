@@ -5,9 +5,20 @@ module.exports = {
   ** Headers of the page
   */
  head: {
-  title:"FP Du Toit",
+  title:"FP du Toit | Transport | Distribution | Logistic | Courier | Namibia",
   meta: [
-    {name: 'description', content: 'Driven to deliver'}
+    {name: 'description', content: 'FP du Toit in Namibia and South Africa provides you with a full range of Transport, Distribution, Courier and Logistics Services with 50 years of experience in domestic, regional and international forwarding. Contact our specialists now.'},
+    { name: "twitter:card", content: "summary" },
+    { name: "twitter:site", content: "@publisher_handle" },
+    { name: "twitter:title", content: "FP du Toit | Transport | Distribution | Logistic | Courier | Namibia" },
+    { name: "twitter:description", content: "FP du Toit in Namibia and South Africa provides you with a full range of Transport, Distribution, Courier and Logistics Services with 50 years of experience in domestic, regional and international forwarding. Contact our specialists now." },
+    { name: "twitter:image", content: "https://fpdt.na/media/main-slider/5.jpg" },
+    { property: "og:title", content: "FP du Toit | Transport | Distribution | Logistic | Courier | Namibia" },
+    { property: "og:type", content: "article" },
+    { property: "og:url", content: "https://fpdt.na/" },
+    { property: "og:image", content: "https://fpdt.na/media/main-slider/5.jpg" },
+    { property: "og:description", content: "FP du Toit in Namibia and South Africa provides you with a full range of Transport, Distribution, Courier and Logistics Services with 50 years of experience in domestic, regional and international forwarding. Contact our specialists now."  },
+    { property: "og:site_name", content: "FP du Toit Transport" }
   ],
   script: [
     { src: '/js/jquery-1.11.3.min.js', body: true},
@@ -21,9 +32,6 @@ module.exports = {
     { src: '/plugins/js/jquery.easypiechart.min.js', body: true},
     { src: '/plugins/js/classie.js', body: true },
     { type: 'text/javascript', src: '/styles/assets/isotope/jquery.isotope.min.js', body: true },
-    { src: '/plugins/js/jquery.smooth-scroll.js', body: true },
-    { src: '/plugins/js/wow.min.js', body: true },
-    { src: '/plugins/js/smoothscroll.min.js', body: true },
     { src: '/plugins/js/theme.js', body: true}
   ],
   link: [

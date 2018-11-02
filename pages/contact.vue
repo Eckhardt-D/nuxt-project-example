@@ -17,6 +17,9 @@
       <div class="container-fluid">
         <ul class="nav nav-tabs wow zoomIn" data-wow-delay="0.3s" id="filter">
           <li @click="setSelectedPlace" id="activeItem" class="active"><a href="#" data-filter=".windhoek">Windhoek</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".walvisbay">Walvis Bay</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".karibib">Karibib</a></li>
+          <li @click="setSelectedPlace"><a href="#" data-filter=".mariental">Mariental</a></li>
           <li @click="setSelectedPlace"><a data-filter=".keetmans" href="#" >Keetmanshoop</a></li>
           <li @click="setSelectedPlace"><a href="#" data-filter=".joburg">Johannesburg</a></li>
           <li @click="setSelectedPlace"><a href="#" data-filter=".capetown">Cape Town</a></li>

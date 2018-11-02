@@ -50,16 +50,113 @@
       </div>
       <div class="copy text-right"><a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a></div>
     </div>
+    <div id="meta-seo"></div>
   </footer>
 </template>
 
 <script>
   export default {
-    name: 'TheFooter'
+    name: 'TheFooter',
+    mounted() {
+      $(function() {
+        const metaHolder = document.getElementById('meta-seo');
+        const data = [`{
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "FP du Toit",
+          "alternateName": "JET.X Couriers",
+          "url": "https://www.fpdt.na",
+          "logo": "",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+264-61-3729000",
+            "contactType": "customer service",
+            "areaServed": "NA",
+            "availableLanguage": ["English","Afrikaans","German"]
+          },
+          "sameAs": "https://www.facebook.com/fpdutoittransport"
+        }`,
+        `{
+          "@context": "http://schema.org",
+          "@type": "ProfessionalService",
+          "name": "FP du Toit Transport",
+          "image": "https://fpdt.na/styles/assets/switcher/css/logos/logo5.png",
+          "@id": "",
+          "url": "https://www.fpdt.na",
+          "telephone": "+264-61-3729000",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5 Nordland Street",
+            "addressLocality": "Windhoek",
+            "postalCode": "11002",
+            "addressCountry": "NA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -22.51154,
+            "longitude": 17.066295
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          },{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "13:00"
+          }],
+          "sameAs": "https://www.facebook.com/fpdutoittransport"
+        }`,
+        `{
+          "@context": "http://schema.org/", 
+          "@type": "BreadcrumbList", 
+          "itemListElement": [
+            { 
+              "@type": "ListItem", 
+              "position": "1", 
+              "item": { 
+                "@id": "https://www.fpdt.na", 
+                "name": "FP du Toit Home",
+                "image": "https://fpdt.na/styles/assets/switcher/css/logos/logo5.png" 
+              } 
+            },
+            { 
+              "@type": "ListItem", 
+              "position": "2", 
+              "item": { 
+                "@id": "", 
+                "name": "" 
+              } 
+            }
+          ]
+        }`]
+
+        data.forEach(item => {
+          const scriptTag  = document.createElement('script')
+          scriptTag.setAttribute('type','application/ld+json')
+          scriptTag.innerHTML = item
+          scriptTag.innerHTML.replace('<br>', '');
+          metaHolder.appendChild(scriptTag)
+        })
+      })
+    }
   }
+  
+
 
 </script>
 
 <style>
 
 </style>
+
+
+

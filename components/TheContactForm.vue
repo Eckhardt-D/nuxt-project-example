@@ -149,6 +149,24 @@ import {mapGetters} from 'vuex'
           class: 'windhoek'
         },
         {
+          mainTitle: 'Walvis Bay',
+          mainAddress: '11A, Hanna Mupetami Road, Walvis Bay',
+          mainPhone: '+26464216044',
+          class: 'walvisbay'
+        },
+        {
+          mainTitle: 'Karibib',
+          mainAddress: 'R688 Ext 1, Karibib',
+          mainPhone: '+264811225014',
+          class: 'karibib'
+        },
+        {
+          mainTitle: 'Mariental',
+          mainAddress: 'Hendrik Witbooi Avenue, Mariental',
+          mainPhone: '+264817571699',
+          class: 'mariental'
+        },
+        {
           mainTitle: 'Keetmanshoop',
           mainAddress: '116 6th Lane, Keetmanshoop',
           mainPhone: '+26463225324',
@@ -165,12 +183,6 @@ import {mapGetters} from 'vuex'
           mainAddress: 'C/O Cilmore and Krakeel Streets, Stikland, Bellville, Cape Town',
           mainPhone: '+27219464500',
           class: 'capetown',
-        },
-        {
-          mainTitle: 'Walvis Bay',
-          mainAddress: '215 4th Street East, Walvis Bay',
-          mainPhone: '+26464200848',
-          class: 'wbay',
         },
         {
           mainTitle: 'Oshakati',

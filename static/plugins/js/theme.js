@@ -29,15 +29,9 @@
 
 			//Setup WOW.js
 			this.initScrollAnimations();
-
-			// Owl Carousel
-			// this.initOwlCarousel();
-
+			
 			//Isotope Filter
 			this.isotopeFilter();
-
-			// Go to top
-			this.initGoToTop();
 
 			// Accordion
 			this.initAccordion();
@@ -142,9 +136,6 @@
 				});
 				return false;
 			});
-		},
-		initGoToTop: function(options) {
-			$("#to-top").smoothScroll();
 		},
 		initAccordion: function(options) {
 			$(document).on('click', '.why-us li span', function(){

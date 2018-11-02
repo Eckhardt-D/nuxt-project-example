@@ -40,24 +40,6 @@
       </div>
     </div>
     <div class="item">
-      <img class="lazy" src="media/main-slider/3.jpg" alt="slider">
-      <div class="container-fluid">
-        <div class="slider-content col-md-6 col-lg-6">
-          <div style="display:table;">
-            <div style="display:table-cell; width:100px; vertical-align:top;">
-              <a class="prev"><i class="fa fa-angle-left"></i></a>
-              <a class="next"><i class="fa fa-angle-right"></i></a>
-            </div>
-            <div style="display:table-cell;">
-              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
-            </div>
-          </div>
-          <p>These are the passions behind the huge success and exceptional track
-            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
       <img class="lazy" src="media/main-slider/4.jpg" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
@@ -67,11 +49,12 @@
               <a class="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <div style="display:table-cell;">
-              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
+              <h1 class="text-uppercase">With a fleet compliment of more than 550 vehicles</h1>
             </div>
           </div>
-          <p>These are the passions behind the huge success and exceptional track
-            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+          <p> and a 3-year replacement policy for
+          all our long-haul cross border fleet, ensures continuous turning of the wheels and a
+          peace of mind to all our valued clients.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
     </div>
@@ -85,11 +68,11 @@
               <a class="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <div style="display:table-cell;">
-              <h1 class="text-uppercase">Quality, reliability, integrity, service and good relationships</h1>
+              <h1 class="text-uppercase">FP du Toit Transport Group continuously invest in modern technologies and
+            management tools</h1>
             </div>
           </div>
-          <p>These are the passions behind the huge success and exceptional track
-            record of this home-grown logistics giant.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
+          <p> to handle customer needs timeously and safely.<br><router-link class="btn btn-success special-home-two" to="/about">LEARN MORE</router-link></p>
         </div>
       </div>
     </div>
