@@ -63,7 +63,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@rainmakerdigital/nuxt-vista-sdk'
+    '@rainmakerdigital/nuxt-vista-sdk',
   ],
   vista: {
     credentials: {
@@ -80,13 +80,26 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      plugins: [
-        new webpack.ProvidePlugin({
+      config.plugins.concat
+        (new webpack.ProvidePlugin({
           jQuery: 'jquery',
           $: 'jquery',
           'window.jQuery': 'jquery',
         })
-      ]
+      )
+    },
+    html: { 
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
+      }
     }
   },
   generate: {
