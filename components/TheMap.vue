@@ -29,7 +29,8 @@ export default {
           {position: {lat:-19.241917, lng:17.709444}},
           {position: {lat:-17.765556, lng:15.697222}},
           {position: {lat:-21.9349441, lng:15.8492803}},
-          {position: {lat:-24.6121358, lng:17.9290437}}
+          {position: {lat:-24.6121358, lng:17.9290437}},
+          {position: {lat:-29.8483608, lng:30.9222511}}
         ]
       }
     }
