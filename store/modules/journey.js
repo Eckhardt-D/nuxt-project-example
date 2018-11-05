@@ -25,7 +25,7 @@ const actions = {
     Vue.prototype.$vista.journey
     .sendTemplateMail({
       from: 'rainmaker VISTA.journey <journey@rainmaker.travel>',
-      to: ['"Eckhardt Dreyer" <eckhardt@rainmaker.travel>', '"Stephen Lombard" <stephen@rainmaker.travel>', '"Thomas Muller" <thomas@rainmaker.travel>'],
+      to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
       replyTo: payload.email,
       subject: `New WebSite Enquiry | ${payload.department}`,
       templateId: 'feebb6da-0eb6-47ed-b7e0-10764c3aa256',
@@ -53,7 +53,7 @@ const actions = {
   sendVacancyApplication({commit}, payload) {
     Vue.prototype.$vista.journey.sendTemplateMail({
       from: 'rainmaker VISTA.journey <journey@rainmaker.travel>',
-      to: ['"Eckhardt Dreyer" <eckhardt@rainmaker.travel>', '"Stephen Lombard" <stephen@rainmaker.travel>', '"Thomas Muller" <thomas@rainmaker.travel>'],
+      to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
       replyTo: payload.email,
       subject: `New Vacancy Application | ${payload.position}`,
       templateId: '5160faae-942b-4f89-9483-63426eeb8493',

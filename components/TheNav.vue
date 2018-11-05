@@ -17,7 +17,7 @@
                           <div class="h-block"><span>CALL US</span>+264-61-372 9000<br>+264-61-294 5000</div>
                           <!-- <div class="h-block"><span>EMAIL US</span>info@domain.com</div> -->
                           <!-- <div class="h-block"><span>WORKING HOURS</span>Mon - Fri  8.00 - 17.00</div> -->
-                          <router-link class="btn btn-success special-home" to="/contact#filter">GET A QUOTE</router-link>
+                          <a href="#filter" @click="$store.dispatch('changeContactForm', [null, true])" class="btn btn-success special-home">GET A QUOTE</a>
                       </div>
                   </div>
               </div>
@@ -36,7 +36,7 @@
                             <li><router-link to="/downloads">DOWNLOADS</router-link></li>
                         </ul>
 					        </li>
-                  <li><router-link to="/contact">CONTACT</router-link></li>
+                  <li><a href="#" @click="$store.dispatch('changeContactForm', [true, true])" to="/contact">CONTACT</a></li>
                   <li><router-link to="/vacancies">VACANCIES</router-link></li>
                 </ul>
               </nav>

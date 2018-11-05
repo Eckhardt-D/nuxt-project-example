@@ -33,7 +33,7 @@
             <router-link to="/home">Home</router-link>
             <router-link to="/services">Our Services</router-link>
             <router-link to="/about">About Us</router-link>
-            <router-link to="/contact">Contact</router-link>
+            <a @click="$state.dispatch('changeContactForm', [true, true])">Contact</a>
           </nav>
         </div>
         <div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">

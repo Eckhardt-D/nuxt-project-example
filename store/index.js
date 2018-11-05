@@ -8,13 +8,15 @@ const Store = () => {
     /** These must exist in order for the modules to merge **/
     // Add some initial state
     state: {
-      selectedService: null
+      selectedService: null,
+      isContactForm: null
     },
 
     // Using centralized getters is good practice
     // They are also cached by vue just like computed props
     getters: {
-      selectedService: state => state.selectedService
+      selectedService: state => state.selectedService,
+      isContactForm: state => state.isContactForm
     },
 
     // Only mutations can change the store state
@@ -26,8 +28,11 @@ const Store = () => {
     actions: {
       changeService ({state}, payload) {
         state.selectedService = payload
-
         this.app.router.push('/services')
+      },
+      changeContactForm({state}, [payload, reload]) {
+        state.isContactForm = payload
+        if(reload) return this.app.router.push('/contact')
       }
     },
 

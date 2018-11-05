@@ -76,7 +76,7 @@
                       </div>
                       <p class="input-elem-hint">Please format your number as E.164 eg. <samp>+264812345678</samp></p>
                     </div>
-                    <div class="col-sm-6 form-elem">
+                    <div v-if="!isContactForm" class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa fa-arrows-h"></i>
                         <input class="form_input" v-model="formData.width" type="text" name="package-width" id="user-lastname" placeholder="Package width (cm)">
@@ -86,7 +86,7 @@
                         <input class="form_input" v-model="formData.height" type="text" name="package-height" id="user-phone" placeholder="Package height (cm)">
                       </div>
                     </div>
-                    <div class="col-sm-6 form-elem">
+                    <div v-if="!isContactForm" class="col-sm-6 form-elem">
                       <div class="default-inp form-elem">
                         <i class="fa  fa-long-arrow-right"></i>
                         <input class="form_input" v-model="formData.length" type="text" name="package-length" id="user-lastname" placeholder="Package length (cm)">
@@ -209,7 +209,8 @@ import {mapGetters} from 'vuex'
         if ((this.formData.height * this.formData.width * this.formData.length) / 5000 !== 0) return (this.formData.height * this.formData.width * this.formData.length) / 5000;
       },
       ...mapGetters([
-        'mailStatus'
+        'mailStatus',
+        'isContactForm'
       ])
     },
     mounted() {

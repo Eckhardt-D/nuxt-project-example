@@ -35,6 +35,7 @@
 </template>
 
 <script>
+  import {mapGetters} from 'vuex'
 
   const TheMap = () => ({component: import('@/components/TheMap.vue')})
   import TheContactForm from '~/components/TheContactForm'
@@ -50,6 +51,9 @@
     },
     mounted() {
       Core.isotopeFilter()
+    },
+    destroyed() {
+      this.$store.dispatch('changeContactForm', [null, false])
     },
     components: {
       TheContactForm
