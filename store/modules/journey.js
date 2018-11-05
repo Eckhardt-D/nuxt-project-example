@@ -25,9 +25,9 @@ const actions = {
     Vue.prototype.$vista.journey
     .sendTemplateMail({
       from: 'rainmaker VISTA.journey <journey@rainmaker.travel>',
-      to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
+      to: ['"Eckhardt" <eckhardt@rainmaker.travel>'],
       replyTo: payload.email,
-      subject: `New WebSite Enquiry | ${payload.department}`,
+      subject: `New WebSite Quote Enquiry | ${payload.department}`,
       templateId: 'feebb6da-0eb6-47ed-b7e0-10764c3aa256',
       templateEngine: [
         {key:"first_name",value: payload.firstname},
@@ -76,7 +76,32 @@ const actions = {
     .catch(error => {
       commit('CHANGE_VMAIL_STATUS', false)
     })
-  }
+  },
+  sendSanitizedContact({commit}, payload) {
+    Vue.prototype.$vista.journey
+    .sendTemplateMail({
+      from: 'rainmaker VISTA.journey <journey@rainmaker.travel>',
+      to: ['"Eckhardt" <eckhardt@rainmaker.travel>'],
+      replyTo: payload.email,
+      subject: `New WebSite Enquiry | ${payload.department}`,
+      templateId: '4f5636dc-cc4e-4302-a131-b6ddbe0bc255',
+      templateEngine: [
+        {key:"first_name",value: payload.firstname},
+        {key:"last_name",value: payload.lastname},
+        {key:"user_email",value: payload.email},
+        {key:"user_phone",value: payload.phone},
+        {key:"message",value: payload.message},
+        {key:"department",value: payload.department}
+      ],
+      attachments: []
+    })
+    .then(res => {
+      commit('CHANGE_MAIL_STATUS', true)
+    })
+    .catch(error => {
+      commit('CHANGE_MAIL_STATUS', false)
+    })
+  },
 }
 
 export default {

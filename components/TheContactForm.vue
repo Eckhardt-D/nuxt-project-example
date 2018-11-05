@@ -17,10 +17,10 @@
                     <span><i class="fa fa-phone"></i></span>
                     <div>{{office.mainPhone}}</div>
                   </div>
-                  <div>
+                  <!-- <div>
                     <span><i class="fa fa-clock-o"></i></span>
                     <div>Mon - Fri 8.00 - 17.00</div>
-                  </div>
+                  </div> -->
                 </div>
                 <br><br>
                 <hr><br>
@@ -34,10 +34,10 @@
                     <span><i class="fa fa-phone"></i></span>
                     <div>{{office.depotPhone}}</div>
                   </div>
-                  <div>
+                  <!-- <div>
                     <span><i class="fa fa-clock-o"></i></span>
                     <div>Mon - Sat 8.00 - 19.00</div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">
@@ -240,18 +240,35 @@ import {mapGetters} from 'vuex'
         } else {
           let cleanData = this.formData
           cleanData.volumetric = this.volumetric
-          this.$store.dispatch('sendSanitizedMessage', cleanData)
+
+          if(this.isContactForm) {
+            this.$store.dispatch('sendSanitizedContact', cleanData)
+          } else {
+            this.$store.dispatch('sendSanitizedMessage', cleanData)
+          }
+
+          setTimeout(() => {
+            this.$store.commit('CHANGE_MAIL_STATUS', null)
+            this.$router.go('/')
+          }, 5500)
+          
         }
       },
       isEmpty() {
         const formObjectKeys = Object.keys(this.formData)
         let check = false
 
-
         formObjectKeys.forEach(key => {
           let input = this.formData[key]
-          if(input === '') {
-            check = true
+
+          if(this.isContactForm && key !== 'volumetric' && key !== 'height' && key !=='width' && key !== 'length') {
+            if(input === '') {
+              check = true
+            }
+          } else if(!this.isContactForm){
+            if(input === '') {
+              check = true
+            }
           }
         })
         return check
