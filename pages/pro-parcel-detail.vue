@@ -46,7 +46,15 @@
 
 <script>
 export default {
-
+	head() {
+		return {
+			title: 'Pro Parcel | Door-to-door | Depot-to-depot | Refrigerated and Palletised Loads',
+			meta: [{
+				name: 'description',
+				content: 'Pro Parcel provides Door-to-door, Depot-to-depot, Refrigerated and Palletised Loads in Namibia. As part of the FP du Toit Group we provide professional forwarding and Logistics Services with 50 years of experience. Contact us know for any Question.'
+			}]
+		}
+	}
 }
 </script>
 

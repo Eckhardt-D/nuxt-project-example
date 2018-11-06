@@ -156,6 +156,17 @@
       ...mapGetters([
         'selectedService'
       ])
+    },
+    head() {
+      return {
+        title: 'FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport | Namibia',
+        meta: [
+          {
+            name: 'description',
+            content: 'FP du Toit operates Pro Parcel, Jet.X Couriers and Wesbank Transport in Namibia and South Africa, providing you a full range of Transport, Distribution, Courier and Logistics Services with 50 years of experience in Namibia and SADC.'
+          }
+        ]
+      }
     }
   }
 

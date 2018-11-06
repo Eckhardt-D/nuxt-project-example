@@ -51,7 +51,15 @@
 
 <script>
 export default {
-
+	head() {
+		return {
+			title: 'FP du Toit | Cross Border | Inter City | Refrigerated | Central Africa Transport',
+			meta: [{
+				name: 'description',
+				content: 'FP du Toit provides Line Haul Cross Border, Inter-city Line Haul South Africa, Central Africa Transport and Refrigerated Transport Services in Namibia and South Africa for 50 years. Contact us know for any Question.'
+			}]
+		}
+	}
 }
 </script>
 
