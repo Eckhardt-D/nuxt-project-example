@@ -27,9 +27,9 @@
         </ul>
       </div>
     </div>
-    <div class="container-fluid inner-offset wow zoomIn" data-wow-delay="0.3s">
-      <div class="tab-content row services">
-        <div class="tab-pane active isotope-filter text-center">
+    <div class="container inner-offset wow zoomIn" data-wow-delay="0.3s">
+      <div class="tab-content services">
+        <div class="tab-pane row active isotope-filter text-center">
           <div class="service-item col-xs-12 col-sm-4 isotope-item allservices jetxcouriers">
             <h4>CROSS-BORDER</h4>
             <router-link class="btn btn-success special-services" to="/jetx-detail">READ MORE</router-link>
@@ -172,6 +172,3 @@
 
 </script>
 
-<style>
-
-</style>

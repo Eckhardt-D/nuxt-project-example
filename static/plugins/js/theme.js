@@ -123,7 +123,8 @@
 				$container.isotope({
 					// options
 					filter: '.allservices',
-					itemSelector: '.isotope-item'
+					percentPosition: true,
+					itemSelector: '.isotope-item',
 				});
 			});
 			// filter items when filter link is clicked
@@ -132,7 +133,9 @@
 				$(this).parent('li').addClass('active');
 				var selector = $(this).attr('data-filter');
 				$container.isotope({
-					filter: selector
+					percentPosition: true,
+					filter: selector,
+					itemSelector: '.isotope-item'
 				});
 				return false;
 			});
