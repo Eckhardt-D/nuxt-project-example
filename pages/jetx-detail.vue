@@ -16,10 +16,10 @@
       <div class="row">
         <div class="col-sm-12 main-content text-center">
           <h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">Part of the FP du Toit Transport Group</h1>
-          <img width=300px src="media/3-column-info/2.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
+          <img width=300px src="/media/3-column-info/2.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
           <div class="row">
             <div class="col-xs-12 col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-              <img src="media/images/cross-border.jpg" height="250px" alt="Img">
+              <img src="/media/images/cross-border.jpg" height="250px" alt="Img">
               <h4>Cross Border</h4>
               <p>Courier freight is received in Windhoek from CapeTown and Johannesburg Monday to Saturday using
                 multiple departures.
@@ -36,7 +36,7 @@
                 The processing of the importation of the goods can be started before the vehicle’s arrival.</p>
             </div>
             <div class="col-xs-12 col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-              <img src="media/blog/3.jpg" height="250px" alt="Img">
+              <img src="/media/blog/3.jpg" height="250px" alt="Img">
               <h4>Domestic</h4>
               <p>JET.X Couriers offer daily (Monday to Friday) deliveries to all Namibian destinations and dedicated
                 pharmaceutical deliveries on Saturdays.

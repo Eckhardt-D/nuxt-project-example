@@ -17,7 +17,7 @@
           <div class="big-posts">
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img style="width: 33%!important;" src="media/blog/post8.png" alt="FP Du Toit">
+              <img style="width: 33%!important;" src="/media/blog/post8.png" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>December 09.12.2016</span>
@@ -54,7 +54,7 @@
 
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img style="width: 33%!important;" src="media/blog/post6.png" alt="FP Du Toit">
+              <img style="width: 33%!important;" src="/media/blog/post6.png" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Team, Company, Values</span>
@@ -74,7 +74,7 @@
 
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img src="media/blog/winterknights.jpg" alt="FP Du Toit">
+              <img src="/media/blog/winterknights.jpg" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Public, Charity, Hope</span>
@@ -93,7 +93,7 @@
 
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img src="media/blog/redcross.png" alt="FPDT">
+              <img src="/media/blog/redcross.png" alt="FPDT">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Public, Charity, Hope</span>
@@ -110,7 +110,7 @@
             </div>
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img src="media/main-slider/2.jpg" alt="FP Du Toit">
+              <img src="/media/main-slider/2.jpg" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Motivation, Values, Ethics</span>
@@ -126,7 +126,7 @@
             </div>
 
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img style="width: 33%!important;" src="media/fleet-gallery/4.png" alt="FP Du Toit">
+              <img style="width: 33%!important;" src="/media/fleet-gallery/4.png" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Team, Company, Growth</span>
@@ -142,7 +142,7 @@
               <router-link to="/blog/blog-2" class="btn btn-success special-home read-more">READ MORE</router-link>
             </div>
             <div class="wow fadeInUp" data-wow-delay="0.3s">
-              <img src="media/blog/beginnings.jpg" alt="FP Du Toit">
+              <img src="/media/blog/beginnings.jpg" alt="FP Du Toit">
               <div class="post-info">
                 <span>BY ADMIN</span>
                 <span>Company, News, History</span>
@@ -161,7 +161,7 @@
             <div class="recent-posts wow slideInUp" data-wow-delay="0.3s">
               <h4>Recent posts</h4>
               <div>
-                <img src="media/blog/post6.png" alt="FP Du Toit">
+                <img src="/media/blog/post6.png" alt="FP Du Toit">
                 <router-link to="/blog/blog-6">WHEN ONE HUNDRED YEARS OF EXPERIENCE COMES TOGETHER</router-link>
               </div>
               <div>
@@ -169,7 +169,7 @@
                 <router-link to="/blog/blog-7">JET.X Couriers’ expansion of Fleet with Iveco Vehicles</router-link>
               </div>
               <div>
-                <img width="300px" src="media/blog/post8.png" alt="FP Du Toit">
+                <img width="300px" src="/media/blog/post8.png" alt="FP Du Toit">
                 <router-link to="/blog/blog-8">Desert Dash</router-link>
               </div>
             </div>

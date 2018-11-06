@@ -28,7 +28,7 @@
         <div class="tab-pane active" id="tab1">
           <div class="row">
             <div class="col-sm-5">
-              <img class="full-width" src="media/blog/3.jpg" alt="Img">
+              <img class="full-width" src="/media/blog/3.jpg" alt="Img">
             </div>
             <div class="col-sm-7">
               <p><strong style="font-size:16px;">What started out in 1968 as a small Northern Cape family business, FP
@@ -46,14 +46,14 @@
         <div class="tab-pane" id="tab2">
           <div class="row">
             <div style="text-align: center;" class="col-sm-12 mx-auto">
-              <img width="80%" src="media/images/vision.png" alt="Img">
+              <img width="80%" src="/media/images/vision.png" alt="Img">
             </div>
           </div>
         </div>
         <div class="tab-pane" id="tab3">
           <div class="row">
             <div class="col-sm-5 text-right">
-              <img class="full-height text-right" src="media/images/3.jpg" alt="Img">
+              <img class="full-height text-right" src="/media/images/3.jpg" alt="Img">
             </div>
             <div class="col-sm-7 text-block">
               <p><strong>FP du Toit Transport Group continuously invests in modern technologies and management tools to
@@ -74,7 +74,7 @@
         <div class="tab-pane" id="tab4">
           <div class="row">
             <div class="col-sm-5 text-right">
-              <img class="full-height text-right" src="media/images/3.jpg" alt="Img">
+              <img class="full-height text-right" src="/media/images/3.jpg" alt="Img">
             </div>
             <div class="col-sm-7 text-block">
               <p>Willie du Toit: Managing Director</p>
@@ -122,7 +122,7 @@
       </div>
     </div>
 
-    <div class="bg-image parallax" style="background-image:url(media/bg/4.jpg);">
+    <div class="bg-image parallax" style="background-image:url(/media/bg/4.jpg);">
       <div class="container-fluid text-center wow fadeInUp" data-wow-delay="0.3s">
         <h1>WE ARE DEDICATED TO PROVIDE THE BEST SERVICE <br> AT THE LOWEST POSSIBLE COST</h1>
         <router-link class="btn btn-success special-home-two" to="/services">READ MORE</router-link>
@@ -136,11 +136,11 @@
       </div>
       <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
         data-min450="2" data-min600="2" data-min768="4">
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/1.png" alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/2.png"
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="/media/3-column-info/1.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="/media/3-column-info/2.png"
               alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/3.png" alt="Img"></a></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="media/3-column-info/4.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="/media/3-column-info/3.png" alt="Img"></a></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img width="100%" src="/media/3-column-info/4.png" alt="Img"></a></div>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@
   <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false"
     data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
     <div class="item">
-      <img class="lazy" src="media/main-slider/1.jpg" alt="slider">
+      <img class="lazy" src="/media/main-slider/1.jpg" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="lazy" src="media/main-slider/2.jpg" alt="slider">
+      <img class="lazy" src="/media/main-slider/2.jpg" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="lazy" src="media/main-slider/4.jpg" alt="slider">
+      <img class="lazy" src="/media/main-slider/4.jpg" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="lazy" src="media/main-slider/5.jpg" alt="slider">
+      <img class="lazy" src="/media/main-slider/5.jpg" alt="slider">
       <div class="container-fluid">
         <div class="slider-content col-md-6 col-lg-6">
           <div style="display:table;">
@@ -80,7 +80,7 @@
   <div class="container-fluid">
       <div class="row column-info block-content">
         <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/1.png" alt="slider">
+          <img class="lazy" src="/media/3-column-info/1.png" alt="slider">
           <p class="departments">This business unit provides the line haul service of
             full truck loads from South Africa (Durban,
             Johannesburg and Cape Town) as well as from the
@@ -91,7 +91,7 @@
           <button @click="$store.dispatch('changeService', 'FP DU TOIT')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div style="margin-top: 0!important;" class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/3.png" alt="Img">
+          <img class="lazy" src="/media/3-column-info/3.png" alt="Img">
           <p class="departments">A distribution service able to deliver to all
             Namibian destinations with the highest
             frequency of deliveries in Namibia. The
@@ -104,7 +104,7 @@
           <button @click="$store.dispatch('changeService', 'PRO PARCEL')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInRight" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/2.png" alt="Img">
+          <img class="lazy" src="/media/3-column-info/2.png" alt="Img">
           <p class="departments">Jet.X Couriers was acquired by FP du Toit
             Transport in 2005.
             In 2012 Jet.X Couriers expanded its network
@@ -116,7 +116,7 @@
           <button @click="$store.dispatch('changeService', 'JET.X COURIERS')" class="btn btn-success special-home">READ MORE</button>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="3.3s">
-          <img class="lazy" src="media/3-column-info/4.png" alt="Img">
+          <img class="lazy" src="/media/3-column-info/4.png" alt="Img">
           <p class="departments">FP du Toit in 2015<br>
             Wesbank Transport was bought by FP du
             Toit Transport in 2015.
@@ -141,7 +141,7 @@
 
     <div class="container-fluid block-content">
       <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-        <img style="margin: 1em 0;" class="lazy" width="28%" src="media/images/3.png" alt="FP Du Toit">
+        <img style="margin: 1em 0;" class="lazy" width="28%" src="/media/images/3.png" alt="FP Du Toit">
         <h2>We have a wide network of offices in all major locations to complement our service
           offering.</h2>  
       </div>
@@ -192,12 +192,12 @@
       </div>
       <div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
         data-min450="2" data-min600="2" data-min768="4">
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/1.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/2.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/3.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/4.png" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/1.jpg" alt="Img"></div>
-        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="media/fleet-gallery/2.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/1.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/2.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/3.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/4.png" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/1.jpg" alt="Img"></div>
+        <div class="wow rotateIn" data-wow-delay="0.3s"><img class="lazy" src="/media/fleet-gallery/2.jpg" alt="Img"></div>
       </div>
     </div>
   </div>
@@ -315,10 +315,10 @@
     </div>
     <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true"
       data-min450="2" data-min600="2" data-min768="4">
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'FP DU TOIT')"><img class="lazy" width="100%" src="media/3-column-info/1.png" alt="Img"></a></div>
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'PRO PARCEL')"><img class="lazy" width="100%" src="media/3-column-info/3.png" alt="Img"></a></div>            
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'JET.X COURIERS')"><img class="lazy" width="100%" src="media/3-column-info/2.png" alt="Img"></a></div>            
-      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')"><img class="lazy" width="100%" src="media/3-column-info/4.png" alt="Img"></a></div>      
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'FP DU TOIT')"><img class="lazy" width="100%" src="/media/3-column-info/1.png" alt="Img"></a></div>
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'PRO PARCEL')"><img class="lazy" width="100%" src="/media/3-column-info/3.png" alt="Img"></a></div>            
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'JET.X COURIERS')"><img class="lazy" width="100%" src="/media/3-column-info/2.png" alt="Img"></a></div>            
+      <div class="wow rotateIn" data-wow-delay="0.3s"><a @click="$store.dispatch('changeService', 'WESBANK TRANSPORT')"><img class="lazy" width="100%" src="/media/3-column-info/4.png" alt="Img"></a></div>      
     </div>
   </div>
 </div>

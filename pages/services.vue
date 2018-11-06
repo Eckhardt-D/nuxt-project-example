@@ -4,10 +4,10 @@
       <div class="container-fluid">
         <a href="#">
           <h1>OUR SERVICES</h1>
-          <img v-if="selectedService === 'FP DU TOIT'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="media/white/1.png" alt="">
-          <img v-if="selectedService === 'PRO PARCEL'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="media/white/2.png" alt="">
-          <img v-if="selectedService === 'JET.X COURIERS'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="media/white/3.png" alt="">
-          <img v-if="selectedService === 'WESBANK TRANSPORT'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="media/white/4.png" alt="">
+          <img v-if="selectedService === 'FP DU TOIT'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="/media/white/1.png" alt="">
+          <img v-if="selectedService === 'PRO PARCEL'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="/media/white/2.png" alt="">
+          <img v-if="selectedService === 'JET.X COURIERS'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="/media/white/3.png" alt="">
+          <img v-if="selectedService === 'WESBANK TRANSPORT'" style="margin-top: -15px; margin-left: 25%;" height="50px" src="/media/white/4.png" alt="">
         </a>
         <div class="pull-right">
           <router-link to="/"><i class="fa fa-home fa-lg"></i></router-link> &nbsp;&nbsp;|&nbsp;&nbsp; <router-link to="/services">Our

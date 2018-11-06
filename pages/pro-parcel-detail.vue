@@ -13,10 +13,10 @@
 				<div class="row">
 					<div class="col-sm-12 main-content text-center">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">Pro Parcel Distribution was established as a sub-division of the FP du Toit Transport company in 1997.</h1>
-						<img width=300px src="media/3-column-info/3.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img width=300px src="/media/3-column-info/3.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
 						<div class="row">                    	
 							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
-								<!-- <img height="369px" src="media/images/cross-border.jpg" alt="Img"> -->
+								<!-- <img height="369px" src="/media/images/cross-border.jpg" alt="Img"> -->
 								<h4>Services</h4>
 								<p>Pro Parcel offers a door-door service from Johannesburg and Cape Town to Namibia. With its large fleet it is
 								ideal for large, heavy and awkward shipments that is not time sensitive.

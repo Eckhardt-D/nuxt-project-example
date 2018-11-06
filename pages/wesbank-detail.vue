@@ -13,10 +13,10 @@
 				<div class="row">
 					<div class="col-sm-12 main-content text-center">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">Part of the FP du Toit Transport Group</h1>
-						<img width=300px src="media/3-column-info/4.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img width=300px src="/media/3-column-info/4.png" class="wow zoomIn" data-wow-delay="0.3s" alt="Img">
 						<div class="row">                    	
 							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
-								<img height="369px" src="media/main-slider/4.jpg" alt="Img">
+								<img height="369px" src="/media/main-slider/4.jpg" alt="Img">
 								<!-- <h4>Cross Border</h4> -->
 								<p>Wesbank Transport is a signatory to the International Cyanide Management Code for the transport of
 									cyanide and it is the only Namibian Certified Transport Company who may transport cyanide. It is also
