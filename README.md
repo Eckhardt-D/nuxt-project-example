@@ -11,13 +11,15 @@ $ npm install # Or yarn install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
+# Generate for production
 $ npm run generate
+
+# Hosting
+$ firebase deploy
 ```
+
+> The generate process automatically runs the quick-fix minifier tool postgenerate. If there are path errors, try running `node ./minifier` manually from project root after generate.
+
 # Plugins
 The project uses various plugins, namely:
 - Vista SDK
