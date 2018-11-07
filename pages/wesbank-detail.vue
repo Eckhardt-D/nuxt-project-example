@@ -48,7 +48,14 @@
 
 <script>
 export default {
-
+	head() {
+      return {
+        title: 'Wesbank Transport | Container Transport | Material Handling | Logistics | Warehousing | Abnormal',
+        meta: [
+          { name: 'description', content: 'Wesbank Transport provides Container Transport, Material Handling, Logistics, Warehousing, Abnormal Transports and Crane Hire Services in Namibia and South Africa. As part of the FP du Toit Group we provide professional forwarding and Logistics Services with 50 years of experience. Contact us now with any Questions.'}
+        ]
+      }
+    }
 }
 </script>
 

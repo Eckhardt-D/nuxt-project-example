@@ -200,7 +200,14 @@
 
 <script>
   export default {
-
+    head() {
+      return {
+        title: 'FP du Toit Namibia and South Africa News and Blog to stay in the know about Logistics at all times',
+        meta: [
+          { name: 'description', content: 'FP du Toit | Pro Parcel | Jet.X | Wesbank Transport Blog and News. Stay tuned about what is going on in our companies, depots and in Namibia and South Africa about Logistics, Couriers and the Forwarding Industry.'}
+        ]
+      }
+    }
   }
 
 </script>

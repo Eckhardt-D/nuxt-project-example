@@ -150,6 +150,14 @@
   export default {
     mounted() {
       Core.initOwlCarousel();
+    },
+    head() {
+      return {
+        title: 'FP du Toit Namibia and South Africa for all your transport needs.',
+        meta: [
+          { name: 'description', content: 'FP du Toit started out in 1968 as a small Northern Cape family business, FP du Toit Transport Group has grown into one of Southern Africa’s major transport and freight companies. Contact us Now.'}
+        ]
+      }
     }
   }
 

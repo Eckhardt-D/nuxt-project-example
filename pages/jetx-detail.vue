@@ -62,7 +62,14 @@
 
 <script>
   export default {
-
+    head() {
+      return {
+        title: 'Jet.X Couriers | Cross Border | Air Express | Overnight Road | Domestic Courier',
+        meta: [
+          { name: 'description', content: 'Jet.X  provides Cross Border, Air Express, Overnight Road and Domestic Courier Services in Namibia and South Africa. As part of the FP du Toit Group we provide professional forwarding and Logistics Services with 50 years of experience. Contact us now with any Questions.'}
+        ]
+      }
+    }
   }
 
 </script>

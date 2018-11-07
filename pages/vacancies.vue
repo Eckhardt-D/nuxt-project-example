@@ -35,6 +35,14 @@
 
   <script>
   export default {
+    head() {
+      return {
+        title: 'FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport | Vacancies and Career Opportunities',
+        meta: [
+          { name: 'description', content: 'Look at the career opportunities and job vacancies at FP du Toit, Pro Parcel, Jet.X Couriers and Wesbank Transport in Windhoek, Walvis Bay, Tsumeb, Oshakati, Mariental, Keetmanshoop and Karibib in Namibia as well as Johannesburg, Durban and Cape Town in South Africa.'}
+        ]
+      }
+    }
   }
   </script>
 

@@ -46,6 +46,11 @@
         selectedPlace: 'windhoek'
       }
     },
+    computed: {
+      ...mapGetters([
+        'isContactForm'
+      ])
+    },
     created() {
       this.googlemap = () => TheMap()
     },
@@ -62,6 +67,23 @@
       setSelectedPlace(e) {
         this.selectedPlace = e.target.attributes['data-filter'].value.replace('.', '')
         $(e.target).click()
+      }
+    },
+    head() {
+      if(this.isContactForm) {
+        return {
+          title: 'FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport | Contact and Locations',
+          meta: [
+            { name: 'description', content: 'FP du Toit, Pro Parcel, Jet.X Couriers and Wesbank Transport offices, depots, maps and directions for Windhoek, Walvis Bay, Tsumeb, Oshakati, Mariental, Keetmanshoop and Karibib in Namibia as well as Johannesburg, Durban and Cape Town in South Africa.'}
+          ]
+        }
+        } else {
+        return {
+          title: 'Get a Quote for FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport Services',
+          meta: [
+            { name: 'description', content: 'Get a Quote for FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport Services.'}
+          ]
+        } 
       }
     }
   }

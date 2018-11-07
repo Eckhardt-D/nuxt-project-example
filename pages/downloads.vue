@@ -43,6 +43,14 @@
 
 <script>
 export default {
+  head() {
+      return {
+        title: 'FP du Toit | Pro Parcel | Jet.X Couriers | Wesbank Transport | Document Downloads',
+        meta: [
+          { name: 'description', content: 'Download important FP du Toit, Pro Parcel , Jet.X Couriers and Wesbank Transport documents such as Credit Application, Conditions of Credit, Conditions of Carriage, Pro Parcel Delivery Schedule and the JET.X Delivery Schedule.'}
+        ]
+      }
+    }
 }
 </script>
 
