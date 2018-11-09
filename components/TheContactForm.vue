@@ -286,10 +286,10 @@ import {mapGetters} from 'vuex'
 
         if(this.isContactForm) {
           this.$store.dispatch('sendSanitizedContact', cleanData);
-          sltracker.track('contact_enquiry', formData);
+          sltracker.track('contact_enquiry', cleanData);
         } else {
           this.$store.dispatch('sendSanitizedMessage', cleanData);
-          sltracker.track('quote_enquiry', formData);
+          sltracker.track('quote_enquiry', cleanData);
         }
     
         setTimeout(() => {
