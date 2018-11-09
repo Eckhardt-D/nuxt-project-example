@@ -104,7 +104,8 @@
                     <textarea class="form_input" v-model="formData.message" id="user-message" placeholder="Message"></textarea>
                   </div>
                   <div class="form-elem">
-                    <button @click="sendSanitizedForm()" type="submit" class="btn btn-success special-home">send message</button>
+                    <button class="btn btn-success special-home" @click="sendSanitizedForm()" type="submit">send message</button>
+                    <div id="recaptcha" class="g-recaptcha"></div>
                   </div>
                 </form>
                  <h2 v-if="formError.isError" style="color: red; z-index: 1000">Oops!<span>{{formError.message}}</span></h2>
@@ -218,6 +219,22 @@ import {mapGetters} from 'vuex'
         $('[data-filter=".windhoek"]').click()
       }, 1000)
     },
+    initReCaptcha: function() {
+        var self = this;
+        setTimeout(function() {
+            if(typeof grecaptcha === 'undefined') {
+                self.initReCaptcha();
+            }
+            else {
+                grecaptcha.render('recaptcha', {
+                    sitekey: '6LfJhHkUAAAAAPicdVIkdIbkx_JO92H50LFDRR6y',
+                    size: 'invisible',
+                    badge: 'inline',
+                    callback: self.submitForm
+                });
+            }
+        }, 100);
+    },
     methods: {
       sendSanitizedForm() {
         this.formError.isError = false
@@ -238,20 +255,8 @@ import {mapGetters} from 'vuex'
           this.formError.message = ` Please enter a valid cellphone number.`
           return
         } else {
-          let cleanData = this.formData
-          cleanData.volumetric = this.volumetric
-
-          if(this.isContactForm) {
-            this.$store.dispatch('sendSanitizedContact', cleanData)
-          } else {
-            this.$store.dispatch('sendSanitizedMessage', cleanData)
-          }
-
-          setTimeout(() => {
-            this.$store.commit('CHANGE_MAIL_STATUS', null)
-            this.$router.go('/')
-          }, 5500)
           
+          grecaptcha.execute();
         }
       },
       isEmpty() {
@@ -272,6 +277,23 @@ import {mapGetters} from 'vuex'
           }
         })
         return check
+      },
+      submitForm() {
+        dataLayer.push({'event': 'formSubmit'});
+        
+        let cleanData = this.formData
+        cleanData.volumetric = this.volumetric
+
+        if(this.isContactForm) {
+          this.$store.dispatch('sendSanitizedContact', cleanData)
+        } else {
+          this.$store.dispatch('sendSanitizedMessage', cleanData)
+        }
+
+        setTimeout(() => {
+          this.$store.commit('CHANGE_MAIL_STATUS', null)
+          this.$router.go('/')
+        }, 5500)
       }
     },
     watch: {

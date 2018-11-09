@@ -18,7 +18,51 @@ import TheFooter from '@/components/TheFooter'
 
 export default {
   mounted() {
-    $(function(){$('.lazy').Lazy()});
+    $(function(){
+      $('.lazy').Lazy()
+
+      // Scripts container
+      let container = $('.super_container');
+      
+      /* GTM */
+      const GTM = document.createElement('script');
+      GTM.setAttribute('async', '');
+      GTM.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NC4SDTG');`;
+
+      /* Analytics */
+      const GA = document.createElement('script');
+      GA.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-115921707-25');
+      GA.setAttribute('async', 'true');
+
+      const gaDataLayer = document.createElement('script');
+      gaDataLayer.innerHTML = `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-115921707-25');`;
+
+      /* recaptcha */
+      const recaptcha = document.createElement('script');
+      recaptcha.setAttribute('src', 'https://www.google.com/recaptcha/api.js?render=explicit');
+      recaptcha.setAttribute('async', 'true');
+      recaptcha.setAttribute('defer', 'true');
+      
+      // If Javascript
+      container.append(GTM);
+      container.append(GA);
+      container.append(gaDataLayer);
+      container.append(recaptcha);
+
+      // If no JavaScript
+      container.append(
+      `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC4SDTG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`
+      )
+    })
+
+    
   },
   components: {
     TheNav,
