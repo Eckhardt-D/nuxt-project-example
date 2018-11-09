@@ -285,11 +285,13 @@ import {mapGetters} from 'vuex'
         cleanData.volumetric = this.volumetric
 
         if(this.isContactForm) {
-          this.$store.dispatch('sendSanitizedContact', cleanData)
+          this.$store.dispatch('sendSanitizedContact', cleanData);
+          sltracker.track('contact_enquiry', formData);
         } else {
-          this.$store.dispatch('sendSanitizedMessage', cleanData)
+          this.$store.dispatch('sendSanitizedMessage', cleanData);
+          sltracker.track('quote_enquiry', formData);
         }
-
+    
         setTimeout(() => {
           this.$store.commit('CHANGE_MAIL_STATUS', null)
           this.$router.go('/')

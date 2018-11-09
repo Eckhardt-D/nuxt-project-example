@@ -50,16 +50,27 @@ export default {
       recaptcha.setAttribute('async', 'true');
       recaptcha.setAttribute('defer', 'true');
       
+      /*marketing automation*/
+      const sendloop = document.createElement('script');
+      sendloop.innerHTML = `window.sltracker_settings = { 'sl_user_id': "rDf-78/aa4c57c2" }; !function(key) {var methods = ["identify", "track"];function dummySltracker() {var self = this;function proxy(command) {self[command] = function() {return self._queue.push([command].concat(Array.prototype.slice.call(arguments, 0))), self;};}for (self._queue = [], i = 0; i < methods.length; i++) {proxy(methods[i]);}}window.__sndlp = window[key] = window[key] || new dummySltracker;window.__sndlp.methods = methods;}("sltracker"); (function () {var w = window;var d = document;function l() {var s = d.createElement('script');s.type = 'text/javascript';s.async = 1;s.src = ('https:' == document.location.protocol ? 'https://' : 'https://') + '//api.sendloop.com/t/sltracker.js';var x = d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}if (w.attachEvent) {w.attachEvent('onload', l);} else {w.addEventListener('load', l, false);}})();`
+      sendloop.setAttribute('async', 'true');
+
       // If Javascript
       container.append(GTM);
       container.append(GA);
       container.append(gaDataLayer);
       container.append(recaptcha);
+      container.append(sendloop);
 
       // If no JavaScript
-      container.append(
-      `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC4SDTG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`
-      )
+      const noJS = document.createElement('noscript');
+      const noJSFrame = document.createElement('iframe');
+      noJSFrame.setAttribute('src', 'https://www.googletagmanager.com/ns.html?id=GTM-NC4SDTG');
+      noJSFrame.setAttribute('height', '0');
+      noJSFrame.setAttribute('width', '0');
+      noJSFrame.style.display = 'none';
+      noJS.append(noJSFrame);
+      container.append(noJS);
     })
 
     
