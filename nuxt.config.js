@@ -71,13 +71,13 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@rainmakerdigital/nuxt-vista-sdk',
+    '@rainmakerdigital/xxxxxxxx',
   ],
   vista: {
     credentials: {
-      vistaId: 'b30df856-4136-4ebb-9801-9d6e2c16f3fe',
-      secretKey: '7SwUs0OProaH5JaeZ04WbFYWJQuj2BLrJ',
-      journeyKey: 'f507-81df-facb-c94c-19d2-3f2f-e8ef-6b48'
+      vistaId: 'xxxxxxxxxxxxxx',
+      secretKey: 'xxxxxxxxxxxxx',
+      journeyKey: 'xxxxxxxxxxxxxx'
     }
   },
   /*

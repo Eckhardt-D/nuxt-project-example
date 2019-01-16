@@ -28,7 +28,7 @@ const actions = {
       to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
       replyTo: payload.email,
       subject: `New WebSite Quote Enquiry | ${payload.department}`,
-      templateId: 'feebb6da-0eb6-47ed-b7e0-10764c3aa256',
+      templateId: 'xxxxxxxxx',
       templateEngine: [
         {key:"first_name",value: payload.firstname},
         {key:"last_name",value: payload.lastname},
@@ -56,7 +56,7 @@ const actions = {
       to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
       replyTo: payload.email,
       subject: `New Vacancy Application | ${payload.position}`,
-      templateId: '5160faae-942b-4f89-9483-63426eeb8493',
+      templateId: 'xxxxxxx',
       templateEngine: [
         {key:"user_fullname",value: payload.fullname},
         {key:"user_email",value: payload.email},
@@ -84,7 +84,7 @@ const actions = {
       to: ['"FP du Toit Transport" <welcome@fpdt.na>'],
       replyTo: payload.email,
       subject: `New WebSite Enquiry | ${payload.department}`,
-      templateId: '4f5636dc-cc4e-4302-a131-b6ddbe0bc255',
+      templateId: 'xxxxxxxxx',
       templateEngine: [
         {key:"first_name",value: payload.firstname},
         {key:"last_name",value: payload.lastname},

@@ -2,7 +2,7 @@
     <div class="container-fluid inner-offset wow zoomIn" data-wow-delay="0.3s">
       <div class="tab-content row services">
         <div style="min-height: 1000px" class="tab-pane active isotope-filter">
-          <div v-if="office.class === selectedPlace" v-for="(office, index) in contactDetails" :class="office.class" class="container-fluid block-content isotope-item" :key="index">
+          <div v-for="(office, index) in contactDetails" :class="office.class" class="container-fluid block-content isotope-item" :key="index">
             <div class="row main-grid">
               <div class="col-sm-4">
                 <h4 v-if="office.mainTitle">{{office.mainTitle}} <span v-if="office.mainTitle === 'Windhoek'">Head</span> Office</h4>
@@ -17,10 +17,6 @@
                     <span><i class="fa fa-phone"></i></span>
                     <div>{{office.mainPhone}}</div>
                   </div>
-                  <!-- <div>
-                    <span><i class="fa fa-clock-o"></i></span>
-                    <div>Mon - Fri 8.00 - 17.00</div>
-                  </div> -->
                 </div>
                 <br><br>
                 <hr><br>
@@ -34,10 +30,6 @@
                     <span><i class="fa fa-phone"></i></span>
                     <div>{{office.depotPhone}}</div>
                   </div>
-                  <!-- <div>
-                    <span><i class="fa fa-clock-o"></i></span>
-                    <div>Mon - Sat 8.00 - 19.00</div>
-                  </div> -->
                 </div>
               </div>
               <div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">

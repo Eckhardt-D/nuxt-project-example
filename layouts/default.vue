@@ -1,7 +1,7 @@
 <template>
 <div>
   <no-ssr>
-    <vue-facebook-page data-href="https://www.facebook.com/fpdutoittransport/" link-title="FP Du Toit Transport" />
+    <vue-facebook-page data-href="https://www.facebook.com/xxxxxxxxxxx/" link-title="FP Du Toit Transport" />
   </no-ssr>
   <div data-scrolling-animations="true" class="super_container">
     <div class="sp-body">
@@ -31,18 +31,18 @@ export default {
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NC4SDTG');`;
+      })(window,document,'script','dataLayer','xxxxxx');`;
 
       /* Analytics */
       const GA = document.createElement('script');
-      GA.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-115921707-25');
+      GA.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=xxxxxxxxx');
       GA.setAttribute('async', 'true');
 
       const gaDataLayer = document.createElement('script');
       gaDataLayer.innerHTML = `window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-115921707-25');`;
+        gtag('config', 'xxxxxxxxx');`;
 
       /* recaptcha */
       const recaptcha = document.createElement('script');
@@ -65,7 +65,7 @@ export default {
       // If no JavaScript
       const noJS = document.createElement('noscript');
       const noJSFrame = document.createElement('iframe');
-      noJSFrame.setAttribute('src', 'https://www.googletagmanager.com/ns.html?id=GTM-NC4SDTG');
+      noJSFrame.setAttribute('src', 'https://www.googletagmanager.com/ns.html?id=xxxxxx');
       noJSFrame.setAttribute('height', '0');
       noJSFrame.setAttribute('width', '0');
       noJSFrame.style.display = 'none';
