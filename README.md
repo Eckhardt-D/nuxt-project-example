@@ -1,6 +1,6 @@
-# FP Du Toit Master Branch
+# FP Du Toit (Previous project worked on)
 
-## The project is built on top of the .appspace framework (NUXT and VUE)
+## The project is built on top of the .appspace framework which is owned by rainmaker digital and all related code has been removed.
 
 ### To get started
 
@@ -22,7 +22,7 @@ $ firebase deploy
 
 # Plugins
 The project uses various plugins, namely:
-- Vista SDK
+- Vista SDK (Owned by rainmaker)
 - Google Firebase
 - Google Maps JS API
 - jQuery Image Slider
