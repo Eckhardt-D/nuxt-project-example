@@ -71,7 +71,6 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@rainmakerdigital/xxxxxxxx',
   ],
   vista: {
     credentials: {
